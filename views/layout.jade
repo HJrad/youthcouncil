@@ -2,6 +2,48 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    // CSS files
+    link(rel='stylesheet', media ='screen', href='/css/style.css')
+    link(rel='stylesheet', media ='screen', href='/css/animate.css')
+    link(rel='stylesheet', media ='screen', href='bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', media ='screen', href='/css/simple-line-icons.css')
+    link(rel='stylesheet', media ='screen', href='/css/font-awesome.min.css')
+    // Javascript files   
+    script(src='/js/modernizr.custom.js')  
+    script(src='/js/jquery-1.11.1.min.js')
+    script(src='/bootstrap/js/bootstrap.min.js')
+    script(src='/js/jquery.parallax-1.1.3.js')
+    script(src='/js/imagesloaded.pkgd.js')
+    script(src='/js/jquery.sticky.js')
+    script(src='/js/smoothscroll.js')
+    script(src='/js/wow.min.js')
+    script(src='/js/jquery.easypiechart.js') 
+    script(src='/js/waypoints.min.js')
+    script(src='/js/jquery.cbpQTRotator.js')
+    script(src='/js/custom.js')              
+
   body
     block content
+
+
+    block footer
+
+    footer#footer 
+      .container
+        .row
+          .col-sm-12
+            ul.social-links
+              li
+                a.wow.fadeInUp(href="index.html")
+                  i.fa.fa-facebook
+              li
+                a.wow.fadeInUp(href="index.html")
+                  i.fa.fa-envelope
+            p.copyright
+            | &#169; 2015 Youth council Tunisia
+        // .row
+      // .container
+    // end footer
+
+    
+
