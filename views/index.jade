@@ -13,7 +13,7 @@ block content
     .home-overlay
     .intro
       .start Youth council 2015
-      h1 Join us!
+      a(href='#youthcouncil2015') Join us!
       .start Participate in the development of your own communitry
     a(href='#project')
       .scroll-down
@@ -59,6 +59,27 @@ block content
             .pfblock-line
             .pfblock-subtitle
               | Local youth councils are forums that represent the views of young people at a local level. Run by young people for young people, they give young people a voice and enable them to make their views heard in the decision-making process. They give young people the chance to discuss relevant issues, engage with decision makers and contribute to improving the lives of young people within their communities. 
+        .col-sm-4.col-sm-offset-4 
+          .iconbox.wow.slideInRight
+            .iconbox-icon
+              span.fa.fa-users
+            .iconbox-text
+              a.iconbox-title(href='#contact') Join us!
+              .iconbox-desc
+                | Choose your town and join a motivated team ...  
+              // Modal
+              #myModal.modal.fade(tabindex="-1", role="dialog", aria-labelledby="myModalLabel", aria-hidden="true")
+                .modal-dialog
+                  .modal-content
+                    .modal-header
+                      button.close(type="button", data-dismiss="modal", aria-label="Close")
+                        span(aria-hidden="true") &#215;
+                      h4#myModalLabel.modal-title Modal title
+                    .modal-body
+                      | ...
+                    .modal-footer
+                      button.btn.btn-default(type="button", data-dismiss="modal") Close
+                      button.btn.btn-primary(type="button") Save changes      
       .row
         .col-sm-3
           .iconbox.wow.slideInLeft
@@ -92,14 +113,7 @@ block content
               h3.iconbox-title Agenda
               .iconbox-desc
                 | The project starts march 2015 ...
-      .col-sm-4.col-sm-offset-4 
-        .iconbox.wow.slideInRight
-          .iconbox-icon
-            span.fa.fa-users
-          .iconbox-text
-            h3.iconbox-title Join us!
-            .iconbox-desc
-              | Choose your town and join a motivated team ...
+
       // .row
     // .container
   // Youth council 2015 end
@@ -168,7 +182,6 @@ block content
               figcaption
                 h2
                   | Memebers 2013
-                  span Poke
                 p The youth council team of 2013.
     // .contaier
   // Youth council 2013 end
@@ -258,10 +271,10 @@ block content
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header
-            h2.pfblock-title Drop me a line
+            h2.pfblock-title Contact Us!
             .pfblock-line
             .pfblock-subtitle
-              | No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people&#8217;s eyes, to reveal the marvels around.
+              | The recruitement is open...
       // .row
       .row
         .col-sm-6.col-sm-offset-3
@@ -275,7 +288,7 @@ block content
                 input#c_email.form-control(type="email", name="c_email", placeholder="E-mail")
               .form-group.wow.fadeInUp(data-wow-delay=".2s")
                 textarea#c_message.form-control(name="c_message", rows="7", placeholder="Message")
-              button.btn.btn-lg.btn-block.wow.fadeInUp(type="submit", data-wow-delay=".3s") Send Message
+              button.btn.btn-lg.btn-block.wow.fadeInUp(type="submit", data-wow-delay=".3s", onclick='sendEmail()') Send Message
             .ajax-response
       // .row
     // .container
@@ -284,5 +297,21 @@ block content
 
 
 block footer
-
+script.  
+  function sendEmail () {
+    var mailOptions = {
+     from: "hamza.jrad@gmail.com", // sender address
+     to: "hamza.jrad@humediq.com", // list of receivers
+     subject: "Hello ✔", // Subject line
+     text: "Hello world ✔" // plaintext body
+    }
+    smtpTransport.sendMail(mailOptions, function(error, response){
+     if(error){
+         console.log(error);
+     }else{
+         console.log("Message sent: " + response.message);
+     }
+  });
+  }
+  
 
