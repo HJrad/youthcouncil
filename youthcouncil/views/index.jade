@@ -1,0 +1,317 @@
+extends layout
+  
+
+
+block content
+
+  // Preloader
+  div#preloader
+    div#status
+
+  // Home start
+  section#home.pfblock-image.screen-height
+    .home-overlay
+    .intro
+      .start Youth council 2015
+      a(href='#youthcouncil2015') Join us!
+      .start Participate in the development of your own communitry
+    a(href='#project')
+      .scroll-down
+        span
+          i.fa.fa-angle-down.fa-2x
+  // Home end
+
+  // Navigation start
+  header.header
+    nav.navbar.navbar-custom(role="navigation")
+      .container
+        .navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target="#custom-collapse")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/") Youth council 2015
+        #custom-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href="#home") Home
+            li
+              a(href="#youthcouncil2015") Youth council 2015
+            li
+              a(href="#youthcouncil2013") Youth council 2013
+            li
+              a(href="#teams") Teams
+            li
+              a(href="#partners") Partners
+            li
+              a(href="#contact") Contact
+    // .container
+  // Navigation end
+
+  // Youth council 2015 start 
+  section#youthcouncil2015.pfblock.pfblock-gray
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title What is our project about?
+            .pfblock-line
+            .pfblock-subtitle
+              | Local youth councils are forums that represent the views of young people at a local level. Run by young people for young people, they give young people a voice and enable them to make their views heard in the decision-making process. They give young people the chance to discuss relevant issues, engage with decision makers and contribute to improving the lives of young people within their communities. 
+        .col-sm-4.col-sm-offset-4 
+          .iconbox.wow.slideInRight
+            .iconbox-icon
+              span.fa.fa-users
+            .iconbox-text
+              a.iconbox-title(href='#contact') Join us!
+              .iconbox-desc
+                | Choose your town and join a motivated team ...  
+              // Modal
+              #myModal.modal.fade(tabindex="-1", role="dialog", aria-labelledby="myModalLabel", aria-hidden="true")
+                .modal-dialog
+                  .modal-content
+                    .modal-header
+                      button.close(type="button", data-dismiss="modal", aria-label="Close")
+                        span(aria-hidden="true") &#215;
+                      h4#myModalLabel.modal-title Modal title
+                    .modal-body
+                      | ...
+                    .modal-footer
+                      button.btn.btn-default(type="button", data-dismiss="modal") Close
+                      button.btn.btn-primary(type="button") Save changes      
+      .row
+        .col-sm-3
+          .iconbox.wow.slideInLeft
+            .iconbox-icon
+              span.fa.fa-university
+            .iconbox-text
+              h3.iconbox-title 6 Local youth councils
+              .iconbox-desc
+                | The 6 Local youth councils are: Cite El-Riadh, Kalaa Kebira, Ksibet Mediouni, M'Saken, Hammam sousse and Sousse.
+        .col-sm-3
+          .iconbox.wow.slideInLeft
+            .iconbox-icon
+              span.icon-puzzle
+            .iconbox-text
+              h3.iconbox-title Future projects and ideas
+              .iconbox-desc
+                | We have at least 1 project in each town.
+        .col-sm-3
+          .iconbox.wow.slideInRight
+            .iconbox-icon
+              span.icon-badge
+            .iconbox-text
+              h3.iconbox-title Training and Workshops
+              .iconbox-desc
+                | The workshops are ...
+        .col-sm-3
+          .iconbox.wow.slideInRight
+            .iconbox-icon
+              span.icfa.fa-tachometer
+            .iconbox-text
+              h3.iconbox-title Agenda
+              .iconbox-desc
+                | The project starts march 2015 ...
+
+      // .row
+    // .container
+  // Youth council 2015 end
+
+  // Youth council 2013 starts
+  section#youthcouncil2013.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title Projects 2013
+            .pfblock-line
+            .pfblock-subtitle
+              | The last version of youth council was very successful...
+      // .row
+      .row
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-1.jpg", alt="img01")
+              figcaption
+                h2
+                  | Workshops
+                  span & Training
+                p 3 days of training in June and 5 workshops in July 2013
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-2.jpg", alt="img01")
+              figcaption
+                h2
+                  | Mini
+                  span Projects
+                p 5 mini projects! Each youth council did a mini project.
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-3.jpg", alt="img01")
+              figcaption
+                h2
+                  | Art
+                  span Competition
+                p with art tell us how you want Tunisia will be.
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-4.jpg", alt="img01")
+              figcaption
+                h2
+                  | Study
+                  span trip
+                p The most active members went to a study trip to Krakow in Poland.
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-5.jpg", alt="img01")
+              figcaption
+                h2
+                  | Newspapers 
+                  span & Guide book
+                p Newspapers talk about our activities.
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-6.jpg", alt="img01")
+              figcaption
+                h2
+                  | Memebers 2013
+                p The youth council team of 2013.
+    // .contaier
+  // Youth council 2013 end
+
+  // Team start
+  section#teams.pfblock.pfblock-gray
+    .container
+      .row.teams
+        .row
+          .col-sm-6.col-sm-offset-3
+            .pfblock-header.wow.fadeInUp
+              h2.pfblock-title Youth council team
+              .pfblock-line
+              .pfblock-subtitle
+                | There are 7 youth councils and each consists of 10 members.
+        // .row
+        .col-sm-6.col-md-4
+          h3.text-center Erriadh
+        .col-sm-6.col-md-4
+          h3.text-center Hammam Sousse
+        .col-sm-6.col-md-4
+          h3.text-center Kalaa Kebira
+        .col-sm-6.col-md-4
+          h3.text-center Ksibet Mediouni
+        .col-sm-6.col-md-4
+          h3.text-center Monastir
+        .col-sm-6.col-md-4
+          h3.text-center M'Saken
+        .col-sm-6.col-md-4.col-md-offset-4
+          h3.text-center Sousse
+      // End row
+  // team end
+
+  // call to action starts
+  section.calltoaction
+    .container
+      .row
+        .col-md-12.col-lg-12
+          h2.wow.slideInRight(data-wow-delay=".1s") ARE YOU READY TO JOIN?
+          .calltoaction-decription.wow.slideInRight(data-wow-delay=".2s")
+            | Choose the closest city and contact their coordinator.
+        .col-md-12.col-lg-12.calltoaction-btn.wow.slideInRight(data-wow-delay=".3s")
+          a.btn.btn-lg(href="#contact") Join us!
+      // .row
+    // .container
+  // call to action ends
+
+
+  // Partners start
+  section#partners.pfblock.pfblock-gray
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title Youth council 2015 partners
+            .pfblock-line
+            .pfblock-subtitle
+              | grâce à eux ...
+      // .row
+      .row
+        #cbp-qtrotator.cbp-qtrotator
+          .cbp-qtcontent
+            img(src="/images/logoEureka.png", alt="logoEureka")
+            blockquote
+              p
+                | Eureka is an association ...
+              footer Eureka
+          .cbp-qtcontent
+            img(src="/images/logoWls.jpeg", alt="logoWls")
+            blockquote
+              p
+                | We love sousse is an association ...
+              footer Jane Doe
+          .cbp-qtcontent
+            img(src="/images/logoMila.jpeg", alt="logoMila")
+            blockquote
+              p
+                | MiLA is an organisation ...
+              footer MiLA
+      // .row
+    // .row
+  // Partners end
+  
+  // Contact start
+  section#contact.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header
+            h2.pfblock-title Contact Us!
+            .pfblock-line
+            .pfblock-subtitle
+              | The recruitement is open...
+      // .row
+      .row
+        .col-sm-6.col-sm-offset-3
+          form#contact-form(role="form")
+            .ajax-hidden
+              .form-group.wow.fadeInUp
+                label.sr-only(for="c_name") Name
+                input#c_name.form-control(type="text", name="c_name", placeholder="Name")
+              .form-group.wow.fadeInUp(data-wow-delay=".1s")
+                label.sr-only(for="c_email") Email
+                input#c_email.form-control(type="email", name="c_email", placeholder="E-mail")
+              .form-group.wow.fadeInUp(data-wow-delay=".2s")
+                textarea#c_message.form-control(name="c_message", rows="7", placeholder="Message")
+              button.btn.btn-lg.btn-block.wow.fadeInUp(type="submit", data-wow-delay=".3s", onclick='sendEmail()') Send Message
+            .ajax-response
+      // .row
+    // .container
+  // Contact end
+
+
+
+block footer
+script.  
+  function sendEmail () {
+    var mailOptions = {
+     from: "hamza.jrad@gmail.com", // sender address
+     to: "hamza.jrad@humediq.com", // list of receivers
+     subject: "Hello ✔", // Subject line
+     text: "Hello world ✔" // plaintext body
+    }
+    smtpTransport.sendMail(mailOptions, function(error, response){
+     if(error){
+         console.log(error);
+     }else{
+         console.log("Message sent: " + response.message);
+     }
+  });
+  }
+  
+
