@@ -4,11 +4,30 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var nib = require('nib');
+var i18n = require('i18next');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+
+// initialization of the language framework
+i18n.init({
+  fallbackLng: 'fr',
+  dynamicLoad: true,
+  saveMissing: true,
+  debug: true
+});
+
+function compile(str, path) {
+ return stylus(str)
+ .set('translation', path)
+ .use(nib());
+}
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -16,15 +35,20 @@ app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
+// use i18next module
+app.use(i18n.handle);
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(require('stylus').middleware(path.join(__dirname, 'public')));
+app.use(require('stylus').middleware({src : __dirname + '/public' ,compile: compile} ));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -57,7 +81,8 @@ app.use(function(err, req, res, next) {
   });
 });
 
-
+// call i18n.registerAppHelper(app) which registers express with i18next
+i18n.registerAppHelper(app);
 
 
 
