@@ -297,21 +297,6 @@ block content
 
 
 block footer
-script.  
-  function sendEmail () {
-    var mailOptions = {
-     from: "hamza.jrad@gmail.com", // sender address
-     to: "hamza.jrad@humediq.com", // list of receivers
-     subject: "Hello ✔", // Subject line
-     text: "Hello world ✔" // plaintext body
-    }
-    smtpTransport.sendMail(mailOptions, function(error, response){
-     if(error){
-         console.log(error);
-     }else{
-         console.log("Message sent: " + response.message);
-     }
-  });
-  }
+
   
 
