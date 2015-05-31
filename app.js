@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var stylus = require('stylus')
 var nib = require('nib');
 var i18n = require('i18next');
 
@@ -14,16 +15,14 @@ var app = express();
 
 // initialization of the language framework
 i18n.init({
-  fallbackLng: 'fr',
-  dynamicLoad: true,
   saveMissing: true,
   debug: true
 });
 
 function compile(str, path) {
- return stylus(str)
- .set('translation', path)
- .use(nib());
+  return stylus(str)
+  .set('translation', path)
+  .use(nib())
 }
 
 
@@ -34,6 +33,7 @@ app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
+
 // use i18next module
 app.use(i18n.handle);
 app.use(logger('dev'));
