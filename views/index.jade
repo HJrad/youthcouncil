@@ -72,51 +72,45 @@ block content
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title What is our project about?
+            h2.pfblock-title= t('youthcouncil2015.pfblockTitle') 
             .pfblock-line
-            .pfblock-subtitle
-              | Local youth councils are forums that represent the views of young people at a local level. Run by young people for young people, they give young people a voice and enable them to make their views heard in the decision-making process. They give young people the chance to discuss relevant issues, engage with decision makers and contribute to improving the lives of young people within their communities. 
+            .pfblock-subtitle= t('youthcouncil2015.pfblockSubtitle')
         .col-sm-4.col-sm-offset-4 
           .iconbox.wow.slideInRight
             .iconbox-icon
               span.fa.fa-users
             .iconbox-text
-              a.iconbox-title(href='#contact') Join us!
-              .iconbox-desc
-                | Choose your town and join a motivated team ...  
+              a.iconbox-title(href='#contact')= t('home.joinUs')
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc1') 
       .row
         .col-sm-3
           .iconbox.wow.slideInLeft
             .iconbox-icon
               span.fa.fa-university
             .iconbox-text
-              h3.iconbox-title 6 Local youth councils
-              .iconbox-desc
-                | The 6 Local youth councils are: Cite El-Riadh, Kalaa Kebira, Ksibet Mediouni, M'Saken, Hammam sousse and Sousse.
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle2') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc2')
         .col-sm-3
           .iconbox.wow.slideInLeft
             .iconbox-icon
               span.icon-puzzle
             .iconbox-text
-              h3.iconbox-title Future projects and ideas
-              .iconbox-desc
-                | We have at least 1 project in each town.
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle2') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc2') 
         .col-sm-3
           .iconbox.wow.slideInRight
             .iconbox-icon
               span.icon-badge
             .iconbox-text
-              h3.iconbox-title Training and Workshops
-              .iconbox-desc
-                | The workshops are ...
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle3') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc3')
         .col-sm-3
           .iconbox.wow.slideInRight
             .iconbox-icon
               span.icfa.fa-tachometer
             .iconbox-text
-              h3.iconbox-title Agenda
-              .iconbox-desc
-                | The project starts march 2015 ...
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle4') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc4')
 
       // .row
     // .container
@@ -229,7 +223,7 @@ block content
           .calltoaction-decription.wow.slideInRight(data-wow-delay=".2s")
             | Choose the closest city and contact their coordinator.
         .col-md-12.col-lg-12.calltoaction-btn.wow.slideInRight(data-wow-delay=".3s")
-          a.btn.btn-lg(href="#contact") Join us!
+          a.btn.btn-lg(href="#contact")= t('home.joinUs')
       // .row
     // .container
   // call to action ends

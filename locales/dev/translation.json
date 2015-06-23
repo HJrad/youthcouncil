@@ -15,7 +15,19 @@
     "arabe": "XXXX",
     "french": "XXXX",
     "english": "XXXX",
-    "test": "XXXX",
-    "languges": "nav.languges"
-    }
+    "test": "XXXX"
+  },
+  "youthcouncil2015":{
+    "pfblockTitle":"XXXX",
+    "pfblockSubtitle":"XXXX",
+    "iconboxDesc1":"XXXX",
+    "iconboxTitle2":"XXXX",
+    "iconboxDesc2":"XXXX",
+    "iconboxTitle2":"XXXX",
+    "iconboxDesc3":"XXXX",
+    "iconboxTitle3":"XXXX",
+    "iconboxDesc3":"XXXX",
+    "iconboxTitle4":"XXXX",
+    "iconboxDesc4":"XXXX"
+  }
 }
