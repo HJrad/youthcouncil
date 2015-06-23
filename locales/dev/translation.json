@@ -1,16 +1,21 @@
-{
-    "nav": {
-        "home": "XXXX",
-        "youthcouncil2015": "XXXX",
-        "youthcouncil2013": "XXXX",
-        "teams": "XXXX",
-        "partners": "XXXX",
-        "contact": "XXXX",
-        "languages": "XXXX",
-        "arabe": "XXXX",
-        "french": "XXXX",
-        "english": "XXXX",
-        "test": "XXXX",
-        "languges": "nav.languges"
+{ 
+  "home":{
+    "start":"XXXX",
+    "joinUs":"XXXX",
+    "startDescription":"XXXX"
+  },
+  "nav": {
+    "home": "XXXX",
+    "youthcouncil2015": "XXXX",
+    "youthcouncil2013": "XXXX",
+    "teams": "XXXX",
+    "partners": "XXXX",
+    "contact": "XXXX",
+    "languages": "XXXX",
+    "arabe": "XXXX",
+    "french": "XXXX",
+    "english": "XXXX",
+    "test": "XXXX",
+    "languges": "nav.languges"
     }
 }

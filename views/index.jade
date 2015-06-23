@@ -12,9 +12,9 @@ block content
   section#home.pfblock-image.screen-height
     .home-overlay
     .intro
-      .start Youth council 2015
-      a(href='#youthcouncil2015') Join us!
-      .start Participate in the development of your own communitry
+      .start= t('home.start')
+      a(href='#youthcouncil2015')= t('home.joinUs')
+      .start= t('home.startDescription')
     a(href='#project')
       .scroll-down
         span
@@ -31,7 +31,7 @@ block content
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href="/") Youth council 2015
+          a.navbar-brand(href="/")= t('home.start')
         #custom-collapse.collapse.navbar-collapse
           ul.nav.navbar-nav.navbar-right
             li
@@ -185,7 +185,8 @@ block content
               img(src="/images/item-6.jpg", alt="img01")
               figcaption
                 h2
-                  | Memebers 2013
+                  | Memebers 
+                  span 2013
                 p The youth council team of 2013.
     // .contaier
   // Youth council 2013 end
@@ -257,8 +258,8 @@ block content
             img(src="/images/logoWls.jpeg", alt="logoWls")
             blockquote
               p
-                | We love sousse is an association ...
-              footer Jane Doe
+                | We love Sousse is an association ...
+              footer We love Sousse
           .cbp-qtcontent
             img(src="/images/logoMila.jpeg", alt="logoMila")
             blockquote

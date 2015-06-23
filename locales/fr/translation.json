@@ -1,4 +1,9 @@
-{
+{ 
+  "home":{
+    "start":"Youth council 2015",
+    "joinUs":"Join us!",
+    "startDescription":"Participate in the development of your own community"
+  },
   "nav":{
     "home":"Home",
     "youthcouncil2015":"Youth council 2015",
