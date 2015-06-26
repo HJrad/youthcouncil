@@ -64,5 +64,23 @@
   "action":{
     "readyToJoin":"XXXX",
     "joinDescription":"XXXX"
+  },
+  "partners":{
+    "pfblockTitle":"XXXX",
+    "pfblockSubtitle":"XXXX",
+    "blockQuote1":"XXXX",
+    "footer1":"XXXX",
+    "blockQuote2":"XXXX",
+    "footer2":"XXXX",
+    "blockQuote3":"XXXX",
+    "footer3":"XXXX"
+  },
+  "contact":{
+    "contactUs":"XXXX!",
+    "contactDescription":"XXXX",
+    "name":"XXXX",
+    "email":"XXXX",
+    "message":"XXXX",
+    "sendMsg":"XXXX"
   }
 }

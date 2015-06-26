@@ -66,5 +66,23 @@
   "action":{
     "readyToJoin":"Are you ready to join?",
     "joinDescription":"Choose the closet city and contact your coordinator"
+  },
+  "partners":{
+    "pfblockTitle":"Youth council 2015 partners",
+    "pfblockSubtitle":"grâce à eux...",
+    "blockQuote1":"Eurêka is an organisation...",
+    "footer1":"Eurêka",
+    "blockQuote2":"We love Sousse is an organisation",
+    "footer2":"We love Sousse",
+    "blockQuote3":"Mila is an organisation",
+    "footer3":"Mila"
+  },
+  "contact":{
+    "contactUs":"Contact us!",
+    "contactDescription":"The recruitment is open",
+    "name":"Name",
+    "email":"E-mail",
+    "message":"Message",
+    "sendMsg":"Send message"
   }
 }

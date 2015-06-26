@@ -226,31 +226,27 @@ block content
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title Youth council 2015 partners
+            h2.pfblock-title= t('partners.pfblockTitle')
             .pfblock-line
-            .pfblock-subtitle
-              | grâce à eux ...
+            .pfblock-subtitle= t('partners.pfblockSubtitle')
       // .row
       .row
         #cbp-qtrotator.cbp-qtrotator
           .cbp-qtcontent
             img(src="/images/logoEureka.png", alt="logoEureka")
             blockquote
-              p
-                | Eureka is an association ...
-              footer Eureka
+              p= t('partners.blockQuote1')
+              footer= t('partners.footer1') 
           .cbp-qtcontent
             img(src="/images/logoWls.jpeg", alt="logoWls")
             blockquote
-              p
-                | We love Sousse is an association ...
-              footer We love Sousse
+              p= t('partners.blockQuote1')
+              footer= t('partners.footer1') 
           .cbp-qtcontent
             img(src="/images/logoMila.jpeg", alt="logoMila")
             blockquote
-              p
-                | MiLA is an organisation ...
-              footer MiLA
+              p= t('partners.blockQuote1')
+              footer= t('partners.footer1') 
       // .row
     // .row
   // Partners end
@@ -261,24 +257,23 @@ block content
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header
-            h2.pfblock-title Contact Us!
+            h2.pfblock-title= t('contact.contactUs') 
             .pfblock-line
-            .pfblock-subtitle
-              | The recruitement is open...
+            .pfblock-subtitle= t('contact.contactDescription')
       // .row
       .row
         .col-sm-6.col-sm-offset-3
           form#contact-form(role="form", action='/sendEmail' ,method='post')
             .ajax-hidden
               .form-group.wow.fadeInUp
-                label.sr-only(for="c_name") Name
-                input#c_name.form-control(type="text", name="c_name", placeholder="Name")
+                label.sr-only(for="c_name")= t('contact.name')
+                input#c_name.form-control(type="text", name="c_name", placeholder!=t('contact.name'))
               .form-group.wow.fadeInUp(data-wow-delay=".1s")
-                label.sr-only(for="c_email") Email
-                input#c_email.form-control(type="email", name="c_email", placeholder="E-mail")
+                label.sr-only(for="c_email")= t('contact.email')
+                input#c_email.form-control(type="email", name="c_email", placeholder!=t('contact.email'))
               .form-group.wow.fadeInUp(data-wow-delay=".2s")
-                textarea#c_message.form-control(name="c_message", rows="7", placeholder="Message")
-              button.btn.btn-lg.btn-block.wow.fadeInUp(id='submitBtn', type="submit", data-wow-delay=".3s") Send Message
+                textarea#c_message.form-control(name="c_message", rows="7", placeholder!=t('contact.message'))
+              button.btn.btn-lg.btn-block.wow.fadeInUp(id='submitBtn', type="submit", data-wow-delay=".3s")= t('contact.sendMsg')
             .ajax-response
       // .row
     // .container
