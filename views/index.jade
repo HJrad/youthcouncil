@@ -122,10 +122,9 @@ block content
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title Projects 2013
+            h2.pfblock-title= t('youthcouncil2013.pfblockTitle')
             .pfblock-line
-            .pfblock-subtitle
-              | The last version of youth council was very successful...
+            .pfblock-subtitle= t('youthcouncil2013.pfblockSubtitle')
       // .row
       .row
         .col-xs-12.col-sm-4.col-md-4
@@ -133,55 +132,49 @@ block content
             figure.effect-bubba
               img(src="/images/item-1.jpg", alt="img01")
               figcaption
-                h2
-                  | Workshops
-                  span & Training
-                p 3 days of training in June and 5 workshops in July 2013
+                h2= t('youthcouncil2013.figCaptionTitle11')
+                  span= t('youthcouncil2013.figCaptionTitle12') 
+                p= t('youthcouncil2013.figCaptionDescription1')
         .col-xs-12.col-sm-4.col-md-4
           .grid.wow.zoomIn
             figure.effect-bubba
               img(src="/images/item-2.jpg", alt="img01")
               figcaption
-                h2
-                  | Mini
-                  span Projects
-                p 5 mini projects! Each youth council did a mini project.
+                h2= t('youthcouncil2013.figCaptionTitle21')
+                  span= t('youthcouncil2013.figCaptionTitle22')
+                p= t('youthcouncil2013.figCaptionDescription2')
         .col-xs-12.col-sm-4.col-md-4
           .grid.wow.zoomIn
             figure.effect-bubba
               img(src="/images/item-3.jpg", alt="img01")
               figcaption
-                h2
-                  | Art
-                  span Competition
-                p with art tell us how you want Tunisia will be.
+                h2= t('youthcouncil2013.figCaptionTitle31')
+                  span= t('youthcouncil2013.figCaptionTitle32')
+                p= t('youthcouncil2013.figCaptionDescription3')
         .col-xs-12.col-sm-4.col-md-4
           .grid.wow.zoomIn
             figure.effect-bubba
               img(src="/images/item-4.jpg", alt="img01")
               figcaption
-                h2
-                  | Study
-                  span trip
-                p The most active members went to a study trip to Krakow in Poland.
+                h2= t('youthcouncil2013.figCaptionTitle41')
+                  span= t('youthcouncil2013.figCaptionTitle42')
+                p= t('youthcouncil2013.figCaptionDescription4')
         .col-xs-12.col-sm-4.col-md-4
           .grid.wow.zoomIn
             figure.effect-bubba
               img(src="/images/item-5.jpg", alt="img01")
               figcaption
-                h2
-                  | Newspapers 
-                  span & Guide book
-                p Newspapers talk about our activities.
+                h2= t('youthcouncil2013.figCaptionTitle51')
+                  span= t('youthcouncil2013.figCaptionTitle52')
+                p= t('youthcouncil2013.figCaptionDescription5')
         .col-xs-12.col-sm-4.col-md-4
           .grid.wow.zoomIn
             figure.effect-bubba
               img(src="/images/item-6.jpg", alt="img01")
               figcaption
-                h2
-                  | Memebers 
-                  span 2013
-                p The youth council team of 2013.
+                h2= t('youthcouncil2013.figCaptionTitle61')
+                  span= t('youthcouncil2013.figCaptionTitle62')
+                p= t('youthcouncil2013.figCaptionDescription6')
     // .contaier
   // Youth council 2013 end
 
@@ -192,25 +185,24 @@ block content
         .row
           .col-sm-6.col-sm-offset-3
             .pfblock-header.wow.fadeInUp
-              h2.pfblock-title Youth council team
+              h2.pfblock-title= t('team.pfblockTitle')
               .pfblock-line
-              .pfblock-subtitle
-                | There are 7 youth councils and each consists of 10 members.
+              .pfblock-subtitle= t('team.pfblockSubtitle')
         // .row
         .col-sm-6.col-md-4
-          h3.text-center Erriadh
+          h3.text-center= t('team.textCenter1')
         .col-sm-6.col-md-4
-          h3.text-center Hammam Sousse
+          h3.text-center= t('team.textCenter2')
         .col-sm-6.col-md-4
-          h3.text-center Kalaa Kebira
+          h3.text-center= t('team.textCenter3') 
         .col-sm-6.col-md-4
-          h3.text-center Ksibet Mediouni
+          h3.text-center= t('team.textCenter4') 
         .col-sm-6.col-md-4
-          h3.text-center Monastir
+          h3.text-center= t('team.textCenter5') 
         .col-sm-6.col-md-4
-          h3.text-center M'Saken
+          h3.text-center= t('team.textCenter6') 
         .col-sm-6.col-md-4.col-md-offset-4
-          h3.text-center Sousse
+          h3.text-center= t('team.textCenter7') 
       // End row
   // team end
 
@@ -219,9 +211,8 @@ block content
     .container
       .row
         .col-md-12.col-lg-12
-          h2.wow.slideInRight(data-wow-delay=".1s") ARE YOU READY TO JOIN?
-          .calltoaction-decription.wow.slideInRight(data-wow-delay=".2s")
-            | Choose the closest city and contact their coordinator.
+          h2.wow.slideInRight(data-wow-delay=".1s")= t('action.readyToJoin') 
+          .calltoaction-decription.wow.slideInRight(data-wow-delay=".2s")= t('action.joinDescription')
         .col-md-12.col-lg-12.calltoaction-btn.wow.slideInRight(data-wow-delay=".3s")
           a.btn.btn-lg(href="#contact")= t('home.joinUs')
       // .row

@@ -29,5 +29,42 @@
     "iconboxDesc3":"The workshops are ...",
     "iconboxTitle4":"Agenda",
     "iconboxDesc4":"We have at least 1 project in each town.The project starts march 2015 ..."
+  },
+  "youthcouncil2013":{
+    "pfblockTitle":"Projects 2013",
+    "pfblockSubtitle":"The last edition of youth council",
+    "figCaptionTitle11":"Workshops",
+    "figCaptionTitle12":"& Training",
+    "figCaptionDescription1":"3 days of training in June and 5 workshops in July 2013",
+    "figCaptionTitle21":"Mini",
+    "figCaptionTitle22":"Projects",
+    "figCaptionDescription2":"5 mini projects! Each youth council did a mini project.",
+    "figCaptionTitle31":"Art",
+    "figCaptionTitle32":"Competition.",
+    "figCaptionDescription3":"with art tell us how you want Tunisia will be.",
+    "figCaptionTitle41":"Study",
+    "figCaptionTitle42":"The workshops are ...",
+    "figCaptionDescription4":"The most active members went to a study trip to Krakow in Poland.",
+    "figCaptionTitle51":"Newspapers",
+    "figCaptionTitle52":"& Guide book",
+    "figCaptionDescription5":"Newspapers talk about our activities.",
+    "figCaptionTitle61":"Memebers",
+    "figCaptionTitle62":"XXXXX",
+    "figCaptionDescription6":"The youth council team of 2013."
+  },
+  "team":{
+    "pfblockTitle":"Youth council team",
+    "pfblockSubtitle":"There are 7 youth councils and each consists of 10 members.",
+    "textCenter1":"Erriadh",
+    "textCenter2":"Hammam Sousse",
+    "textCenter3":"Kalaa Kebira",
+    "textCenter4":"Ksibet Mediouni",
+    "textCenter5":"Monastir",
+    "textCenter6":"M'Saken",
+    "textCenter7":"Sousse"
+  },
+  "action":{
+    "readyToJoin":"ARE YOU READY TO JOIN?",
+    "joinDescription":"Choose the closet city and contact your coordinator"
   }
 }
