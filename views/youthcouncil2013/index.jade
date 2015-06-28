@@ -1,0 +1,295 @@
+extends layout
+  
+
+
+block content
+
+  // Preloader
+  div#preloader
+    div#status
+
+  // Home start
+  section#home.pfblock-image.screen-height
+    .home-overlay
+    .intro
+      .start= t('home.start')
+      a(href='#youthcouncil2015')= t('home.joinUs')
+      .start= t('home.startDescription')
+    a(href='#project')
+      .scroll-down
+        span
+          i.fa.fa-angle-down.fa-2x
+  // Home end
+
+  // Navigation start
+  header.header
+    nav.navbar.navbar-custom(role="navigation")
+      .container
+        .navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target="#custom-collapse")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/")= t('home.start')
+        #custom-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href="#home")= t('nav.home')
+            li
+              a(href="#youthcouncil2015")= t('nav.youthcouncil2015') 
+            li
+              a(href="#youthcouncil2013")= t('nav.youthcouncil2013') 
+            li
+              a(href="#teams")= t('nav.teams') 
+            li
+              a(href="#partners")= t('nav.partners') 
+            li
+              a(href="#contact")= t('nav.contact') 
+            li
+              a.aFlag.dropdown-toggle(type='button', data-toggle='dropdown')
+                span.fa.fa-flag
+                span= t('nav.languages')
+                span.caret
+              ul.dropdown-menu(role='menu')
+                li
+                  a(href='?setLng=ar')= t('nav.arabe') 
+                li.divider
+                li
+                  a(href='?setLng=en')= t('nav.english') 
+                li.divider
+                li
+                  a(href='?setLng=fr')= t('nav.french') 
+                li.divider
+                li
+                  a(href='?setLng=dev')= t('nav.test') 
+    // .container
+  // Navigation end
+
+  // Youth council 2015 start 
+  section#youthcouncil2015.pfblock.pfblock-gray
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.pfblockTitle') 
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.pfblockSubtitle')
+        .col-sm-4.col-sm-offset-4 
+          .iconbox.wow.slideInRight
+            .iconbox-icon
+              span.fa.fa-users
+            .iconbox-text
+              a.iconbox-title(href='#contact')= t('home.joinUs')
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc1') 
+      .row
+        .col-sm-3
+          .iconbox.wow.slideInLeft
+            .iconbox-icon
+              span.fa.fa-university
+            .iconbox-text
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle2') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc2')
+        .col-sm-3
+          .iconbox.wow.slideInLeft
+            .iconbox-icon
+              span.icon-puzzle
+            .iconbox-text
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle2') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc2') 
+        .col-sm-3
+          .iconbox.wow.slideInRight
+            .iconbox-icon
+              span.icon-badge
+            .iconbox-text
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle3') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc3')
+        .col-sm-3
+          .iconbox.wow.slideInRight
+            .iconbox-icon
+              span.icon.fa.fa-tachometer
+            .iconbox-text
+              h3.iconbox-title= t('youthcouncil2015.iconboxTitle4') 
+              .iconbox-desc= t('youthcouncil2015.iconboxDesc4')
+
+      // .row
+    // .container
+  // Youth council 2015 end
+
+  // Youth council 2013 starts
+  section#youthcouncil2013.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2013.pfblockTitle')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2013.pfblockSubtitle')
+      // .row
+      .row
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-1.jpg", alt="img01")
+              figcaption
+                h2= t('youthcouncil2013.figCaptionTitle11')
+                  span= t('youthcouncil2013.figCaptionTitle12') 
+                p= t('youthcouncil2013.figCaptionDescription1')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-2.jpg", alt="img01")
+              figcaption
+                h2= t('youthcouncil2013.figCaptionTitle21')
+                  span= t('youthcouncil2013.figCaptionTitle22')
+                p= t('youthcouncil2013.figCaptionDescription2')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-3.jpg", alt="img01")
+              figcaption
+                h2= t('youthcouncil2013.figCaptionTitle31')
+                  span= t('youthcouncil2013.figCaptionTitle32')
+                p= t('youthcouncil2013.figCaptionDescription3')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-4.jpg", alt="img01")
+              figcaption
+                h2= t('youthcouncil2013.figCaptionTitle41')
+                  span= t('youthcouncil2013.figCaptionTitle42')
+                p= t('youthcouncil2013.figCaptionDescription4')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-5.jpg", alt="img01")
+              figcaption
+                h2= t('youthcouncil2013.figCaptionTitle51')
+                  span= t('youthcouncil2013.figCaptionTitle52')
+                p= t('youthcouncil2013.figCaptionDescription5')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/images/item-6.jpg", alt="img01")
+              figcaption
+                h2= t('youthcouncil2013.figCaptionTitle61')
+                  span= t('youthcouncil2013.figCaptionTitle62')
+                p= t('youthcouncil2013.figCaptionDescription6')
+    // .contaier
+  // Youth council 2013 end
+
+  // Team start
+  section#teams.pfblock.pfblock-gray
+    .container
+      .row.teams
+        .row
+          .col-sm-6.col-sm-offset-3
+            .pfblock-header.wow.fadeInUp
+              h2.pfblock-title= t('team.pfblockTitle')
+              .pfblock-line
+              .pfblock-subtitle= t('team.pfblockSubtitle')
+        // .row
+        .col-sm-6.col-md-4
+          h3.text-center= t('team.textCenter1')
+        .col-sm-6.col-md-4
+          h3.text-center= t('team.textCenter2')
+        .col-sm-6.col-md-4
+          h3.text-center= t('team.textCenter3') 
+        .col-sm-6.col-md-4
+          h3.text-center= t('team.textCenter4') 
+        .col-sm-6.col-md-4
+          h3.text-center= t('team.textCenter5') 
+        .col-sm-6.col-md-4
+          h3.text-center= t('team.textCenter6') 
+        .col-sm-6.col-md-4.col-md-offset-4
+          h3.text-center= t('team.textCenter7') 
+      // End row
+  // team end
+
+  // call to action starts
+  section.calltoaction
+    .container
+      .row
+        .col-md-12.col-lg-12
+          h2.wow.slideInRight(data-wow-delay=".1s")= t('action.readyToJoin') 
+          .calltoaction-decription.wow.slideInRight(data-wow-delay=".2s")= t('action.joinDescription')
+        .col-md-12.col-lg-12.calltoaction-btn.wow.slideInRight(data-wow-delay=".3s")
+          a.btn.btn-lg(href="#contact")= t('home.joinUs')
+      // .row
+    // .container
+  // call to action ends
+
+
+  // Partners start
+  section#partners.pfblock.pfblock-gray
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('partners.pfblockTitle')
+            .pfblock-line
+            .pfblock-subtitle= t('partners.pfblockSubtitle')
+      // .row
+      .row
+        #cbp-qtrotator.cbp-qtrotator
+          .cbp-qtcontent
+            img(src="/images/logoEureka.png", alt="logoEureka")
+            blockquote
+              p= t('partners.blockQuote1')
+              footer= t('partners.footer1') 
+          .cbp-qtcontent
+            img(src="/images/logoWls.jpeg", alt="logoWls")
+            blockquote
+              p= t('partners.blockQuote1')
+              footer= t('partners.footer1') 
+          .cbp-qtcontent
+            img(src="/images/logoMila.jpeg", alt="logoMila")
+            blockquote
+              p= t('partners.blockQuote1')
+              footer= t('partners.footer1') 
+      // .row
+    // .row
+  // Partners end
+  
+  // Contact start
+  section#contact.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header
+            h2.pfblock-title= t('contact.contactUs') 
+            .pfblock-line
+            .pfblock-subtitle= t('contact.contactDescription')
+      // .row
+      .row
+        .col-sm-6.col-sm-offset-3
+          form#contact-form(role="form", action='/sendEmail' ,method='post')
+            .ajax-hidden
+              .form-group.wow.fadeInUp
+                label.sr-only(for="c_name")= t('contact.name')
+                input#c_name.form-control(type="text", name="c_name", placeholder!=t('contact.name'))
+              .form-group.wow.fadeInUp(data-wow-delay=".1s")
+                label.sr-only(for="c_email")= t('contact.email')
+                input#c_email.form-control(type="email", name="c_email", placeholder!=t('contact.email'))
+              .form-group.wow.fadeInUp(data-wow-delay=".2s")
+                textarea#c_message.form-control(name="c_message", rows="7", placeholder!=t('contact.message'))
+              button.btn.btn-lg.btn-block.wow.fadeInUp(id='submitBtn', type="submit", data-wow-delay=".3s")= t('contact.sendMsg')
+            .ajax-response
+      // .row
+    // .container
+  // Contact end
+
+
+
+block footer
+  script.
+   // submit form 
+      $('#submitBtn').on('click', function(e){
+        // We don't want this to act as a link so cancel the link action
+        e.preventDefault();
+    
+        // Find form and submit it
+        $('#contact-form').submit();          
+      });
+  
+
