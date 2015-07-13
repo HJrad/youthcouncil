@@ -13,18 +13,28 @@ router.get('/', function(req, res, next) {
 router.get('/sendEmail', function(req, res, next) {
   /* Send emails*/ 
   // create reusable transporter object using SMTP transport
-  var transporter = nodemailer.createTransport({
-      service: 'Gmail',
+  /*var transporter = nodemailer.createTransport({
+      service: 'ns0.ovh.net',
       auth: {
-          user: 'jrad.hamza@gmail.com',
-          pass: 'qqhmvkvkujtsjpah'
+          user: 'no-reply@youthcouncilstunisia.org',
+          pass: 'youthcouncil2015'
       }
+  });*/
+
+  var transporter = nodemailer.createTransport({
+    host: "ssl0.ovh.net", // hostname
+    secure: false, // use SSL
+    port: 587, // port for secure SMTP
+    auth: {
+        user: 'no-reply@youthcouncilstunisia.org',
+          pass: 'youthcouncil2015'
+    }
   });
 
   // setup e-mail data with unicode symbols
   var mailOptions = {
-      from: 'Hamza jrad ✔ <jrad.hamza@gmail.com>', // sender address
-      to: 'hamza_jrad@yahoo.fr, hamza.jrad@humediq.com', // list of receivers
+      from: 'Youth Council ✔ <no-reply@youthcouncilstunisia.org>', // sender address
+      to: 'hamza_jrad@yahoo.fr', // list of receivers
       subject: 'Hello ✔', // Subject line
       text: 'Hello world ✔', // plaintext body
       html: '<b>Hello world ✔</b>' // html body
