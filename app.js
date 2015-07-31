@@ -7,8 +7,11 @@ var bodyParser = require('body-parser');
 var stylus = require('stylus')
 var nib = require('nib');
 var i18n = require('i18next');
+var Promise = require('promise');
 
+// routes
 var routes = require('./routes/index');
+var email = require('./routes/sendEmail');
 
 var app = express();
 
@@ -44,10 +47,7 @@ app.use(require('stylus').middleware({src : __dirname + '/public' ,compile: comp
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/sendEmail', routes);
-
-
-
+app.use('/sendEmail',email.sendEmail);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

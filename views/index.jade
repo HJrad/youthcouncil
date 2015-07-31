@@ -15,7 +15,7 @@ block content
       .start= t('home.start')
       a(href='#youthcouncil2015')= t('home.joinUs')
       .start= t('home.startDescription')
-    a(href='#project')
+    a(href='#youthcouncil2015')
       .scroll-down
         span
           i.fa.fa-angle-down.fa-2x
@@ -263,7 +263,7 @@ block content
       // .row
       .row
         .col-sm-6.col-sm-offset-3
-          form#contact-form(role="form", action='/sendEmail' ,method='post')
+          form#contact-form(action='/sendEmail' ,method='post')
             .ajax-hidden
               .form-group.wow.fadeInUp
                 label.sr-only(for="c_name")= t('contact.name')
@@ -284,12 +284,12 @@ block content
 block footer
   script.
    // submit form 
-      $('#submitBtn').on('click', function(e){
+      /*$('#submitBtn').on('click', function(e){
         // We don't want this to act as a link so cancel the link action
         e.preventDefault();
     
         // Find form and submit it
         $('#contact-form').submit();          
-      });
+      });*/
   
 

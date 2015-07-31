@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET email listing. */
-router.get('/sendEmail', function(req, res, next) {
+/*router.get('/sendEmail', function(req, res, next) {
   /* Send emails*/ 
   // create reusable transporter object using SMTP transport
   /*var transporter = nodemailer.createTransport({
@@ -21,7 +21,7 @@ router.get('/sendEmail', function(req, res, next) {
       }
   });*/
 
-  var transporter = nodemailer.createTransport({
+  /*var transporter = nodemailer.createTransport({
     host: "ssl0.ovh.net", // hostname
     secure: false, // use SSL
     port: 587, // port for secure SMTP
@@ -49,5 +49,5 @@ router.get('/sendEmail', function(req, res, next) {
       }
   });
   res.send('respond with a resource');
-});
+});*/
 module.exports = router;
