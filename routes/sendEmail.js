@@ -7,6 +7,12 @@ var nodemailer = require('nodemailer');
 exports.sendEmail= function(req, res) {
   /* Send emails*/ 
   // create reusable transporter object using SMTP transport
+  var name = req.body.name;
+  var email = req.body.email;
+  var message = req.body.message;
+  console.log("name",name);
+  console.log("email",email);
+  console.log("message",message);
   var transporter = nodemailer.createTransport({
     host: "ns0.ovh.net", // hostname
     secure: false, // use SSL
@@ -24,7 +30,7 @@ exports.sendEmail= function(req, res) {
   var mailOptions = {
       from: 'Youth Council ✔ <no-reply@youthcouncilstunisia.org>', // sender address
       to: 'hamza_jrad@yahoo.fr', // list of receivers
-      subject: 'Hello ✔', // Subject line
+      subject: 'no-reply ✔', // Subject line
       text: 'Hello world ✔', // plaintext body
       html: '<b>Hello world ✔</b>' // html body
   };
