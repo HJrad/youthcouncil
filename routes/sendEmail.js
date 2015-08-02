@@ -28,11 +28,13 @@ exports.sendEmail= function(req, res) {
 
   // setup e-mail data with unicode symbols
   var mailOptions = {
-      from: 'Youth Council ✔ <no-reply@youthcouncilstunisia.org>', // sender address
-      to: 'hamza_jrad@yahoo.fr', // list of receivers
-      subject: 'no-reply ✔', // Subject line
-      text: 'Hello world ✔', // plaintext body
-      html: '<b>Hello world ✔</b>' // html body
+      from: 'no-reply-Youth Council Tunisia <no-reply@youthcouncilstunisia.org>', // sender address
+      to: email, // list of receivers
+      bcc: 'hamza_jrad@yahoo.fr',
+      subject: 'no-reply-Youth Council Tunisia', // Subject line
+      text: message, // plaintext body
+      html: '<p> Hi '+name+', </p>'+'<p> We received your message a coordinator will contact you soon </p>'+
+      '<p> Your message is:</p>'+message // html body
   };
 
   // send mail with defined transport object
