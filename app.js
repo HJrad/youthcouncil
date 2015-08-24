@@ -55,9 +55,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/sendEmail',email.sendEmail);
 // youth council 2015
-app.use('/youthcouncil2015',routes);
+app.get('/youthcouncil2015',youthcouncils2015.youthcouncil2015);
+app.get('/download_calendar',youthcouncils2015.downloadCalendar);
 // youth council 2013
-app.use('/youthcouncil2013',routes);
+app.get('/youthcouncil2013',youthcouncils2013.youthcouncil2013);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
