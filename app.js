@@ -55,7 +55,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/sendEmail',email.sendEmail);
 // youth council 2015
-app.use('youthcouncil2015',routes);
+app.use('/youthcouncil2015',routes);
 // youth council 2013
 app.use('/youthcouncil2013',routes);
 
