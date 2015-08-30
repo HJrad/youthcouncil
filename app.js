@@ -59,6 +59,10 @@ app.get('/youthcouncil2015',youthcouncils2015.youthcouncil2015);
 app.get('/download_calendar',youthcouncils2015.downloadCalendar);
 // youth council 2013
 app.get('/youthcouncil2013',youthcouncils2013.youthcouncil2013);
+app.get('/newspaperAout',youthcouncils2013.downloadFirstEdition);
+app.get('/newspaperSept',youthcouncils2013.downloadSecondEdition);
+app.get('/guidebook',youthcouncils2013.downloadGuideBook);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

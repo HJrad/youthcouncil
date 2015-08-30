@@ -312,7 +312,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-    background: url(../images/calltoaction.jpg);
+    background: url(../img/calltoaction.jpg);
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -360,7 +360,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: url(../img/cover.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -374,7 +374,7 @@ textarea.form-control {
 
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
     height: 100%;
     left: 0;
@@ -413,6 +413,19 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * Youth council 2015
 /* ---------------------------------------------- */
+
+#homeyouthcouncil2015 {
+	background: url(../img/photogroup2015.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}
 
 .iconbox {
 	background: #fff;
@@ -685,7 +698,7 @@ textarea.form-control {
 }
 
 #status {
-	background-image: url(../images/preloader.gif);
+	background-image: url(../img/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;
@@ -727,6 +740,19 @@ textarea.form-control {
 /*-------------------------------------------*/
 /***** Youth council 2013 Common style *****/
 /*-----------------------------------------*/
+
+#homeyouthcouncil2013 {
+	background: url(../img/photogroup2013.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}
 
 .grid {
 	position: relative;

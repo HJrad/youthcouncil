@@ -1,90 +1,100 @@
 {
-  "home": {
-    "start": "XXXX",
-    "joinUs": "XXXX",
-    "startDescription": "XXXX"
-  },
-  "nav": {
-    "home": "XXXX",
-    "youthcouncil2015": "XXXX",
-    "youthcouncil2013": "XXXX",
-    "teams": "XXXX",
-    "partners": "XXXX",
-    "contact": "XXXX",
-    "languages": "XXXX",
-    "arabe": "XXXX",
-    "french": "XXXX",
-    "english": "XXXX",
-    "test": "XXXX"
-  },
-  "youthcouncil2015":{
-    "pfblockTitle":"XXXX",
-    "pfblockSubtitle":"XXXX",
-    "iconboxDesc1":"XXXX",
-    "iconboxTitle1":"XXXX",
-    "iconboxDesc2":"XXXX",
-    "iconboxTitle2":"XXXX",
-    "iconboxDesc3":"XXXX",
-    "iconboxTitle3":"XXXX",
-    "iconboxDesc4":"XXXX",
-    "iconboxTitle4":"XXXX",
-    "iconboxDesc5":"XXXX",
-    "readMore":"XXXX",
-    "download":"XXXX"
-  },
-  "youthcouncil2013": {
-    "pfblockTitle": "XXXX",
-    "pfblockSubtitle": "XXXX",
-    "figCaptionTitle11": "XXXX",
-    "figCaptionTitle12": "XXXX",
-    "figCaptionDescription1": "XXXX",
-    "figCaptionTitle21": "XXXX",
-    "figCaptionTitle22": "XXXX",
-    "figCaptionDescription2": "XXXX",
-    "figCaptionTitle31": "XXXX",
-    "figCaptionTitle32": "XXXX",
-    "figCaptionDescription3": "XXXX",
-    "figCaptionTitle41": "XXXX",
-    "figCaptionTitle42": "XXXX",
-    "figCaptionDescription4": "XXXX",
-    "figCaptionTitle51": "XXXX",
-    "figCaptionTitle52": "XXXX",
-    "figCaptionDescription5": "XXXX",
-    "figCaptionTitle61": "XXXX",
-    "figCaptionTitle62": "XXXX",
-    "figCaptionDescription6": "XXXX"
-  },
-  "team": {
-    "pfblockTitle": "XXXX",
-    "pfblockSubtitle": "XXXX",
-    "textCenter1": "XXXX",
-    "textCenter2": "XXXX",
-    "textCenter3": "XXXX",
-    "textCenter4": "XXXX",
-    "textCenter5": "XXXX",
-    "textCenter6": "XXXX",
-    "textCenter7": "XXXX"
-},
-  "action": {
-    "readyToJoin": "XXXX",
-    "joinDescription": "XXXX"
-  },
-  "partners": {
-    "pfblockTitle": "XXXX",
-    "pfblockSubtitle": "XXXX",
-    "blockQuote1": "XXXX",
-    "footer1": "XXXX",
-    "blockQuote2": "XXXX",
-    "footer2": "XXXX",
-    "blockQuote3": "XXXX",
-    "footer3": "XXXX"
-  },
-  "contact": {
-    "contactUs": "XXXX!",
-    "contactDescription": "XXXX",
-    "name": "XXXX",
-    "email": "XXXX",
-    "message": "XXXX",
-    "sendMsg": "XXXX"
-  }
+	"home": {
+		"start": "XXXX",
+		"start2013": "XXXX",
+		"joinUs": "XXXX",
+		"achievement": "XXXX",
+		"startDescription": "XXXX"
+	},
+	"nav": {
+		"home": "XXXX",
+		"youthcouncil2015": "XXXX",
+		"youthcouncil2013": "XXXX",
+		"teams": "XXXX",
+		"partners": "XXXX",
+		"contact": "XXXX",
+		"languages": "XXXX",
+		"arabe": "XXXX",
+		"french": "XXXX",
+		"english": "XXXX",
+		"test": "XXXX"
+	},
+	"youthcouncil2015": {
+		"pfblockTitle": "XXXX",
+		"pfblockSubtitle": "XXXX",
+		"iconboxDesc1": "XXXX",
+		"iconboxTitle1": "XXXX",
+		"iconboxDesc2": "XXXX",
+		"iconboxTitle2": "XXXX",
+		"iconboxDesc3": "XXXX",
+		"iconboxTitle3": "XXXX",
+		"iconboxDesc4": "XXXX",
+		"iconboxTitle4": "XXXX",
+		"iconboxDesc5": "XXXX",
+		"readMore": "XXXX",
+		"download": "XXXX"
+	},
+	"youthcouncil2013": {
+		"pfblockTitle": "XXXX",
+		"pfblockSubtitle": "XXXX",
+		"figCaptionTitle11": "XXXX",
+		"figCaptionTitle12": "XXXX",
+		"figCaptionDescription1": "XXXX",
+		"figCaptionTitle21": "XXXX",
+		"figCaptionTitle22": "XXXX",
+		"figCaptionDescription2": "XXXX",
+		"figCaptionTitle31": "XXXX",
+		"figCaptionTitle32": "XXXX",
+		"figCaptionDescription3": "XXXX",
+		"figCaptionTitle41": "XXXX",
+		"figCaptionTitle42": "XXXX",
+		"figCaptionDescription4": "XXXX",
+		"figCaptionTitle51": "XXXX",
+		"figCaptionTitle52": "XXXX",
+		"figCaptionDescription5": "XXXX",
+		"figCaptionTitle61": "XXXX",
+		"figCaptionTitle62": "XXXX",
+		"figCaptionDescription6": "XXXX",
+		"training2013": "XXXX",
+		"artCompetition": "XXXX",
+		"projects": "XXXX",
+		"studyTrip":"XXXX",
+		"guideBook": "XXXX",
+	  "firtEdition":"XXXX",
+    "secondEdition":"XXXX",
+    "thirdEdition":"XXXX"
+	},
+	"team": {
+		"pfblockTitle": "XXXX",
+		"pfblockSubtitle": "XXXX",
+		"textCenter1": "XXXX",
+		"textCenter2": "XXXX",
+		"textCenter3": "XXXX",
+		"textCenter4": "XXXX",
+		"textCenter5": "XXXX",
+		"textCenter6": "XXXX",
+		"textCenter7": "XXXX"
+	},
+	"action": {
+		"readyToJoin": "XXXX",
+		"joinDescription": "XXXX"
+	},
+	"partners": {
+		"pfblockTitle": "XXXX",
+		"pfblockSubtitle": "XXXX",
+		"blockQuote1": "XXXX",
+		"footer1": "XXXX",
+		"blockQuote2": "XXXX",
+		"footer2": "XXXX",
+		"blockQuote3": "XXXX",
+		"footer3": "XXXX"
+	},
+	"contact": {
+		"contactUs": "XXXX!",
+		"contactDescription": "XXXX",
+		"name": "XXXX",
+		"email": "XXXX",
+		"message": "XXXX",
+		"sendMsg": "XXXX"
+	}
 }

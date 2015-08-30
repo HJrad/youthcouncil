@@ -1,7 +1,9 @@
 { 
   "home":{
     "start":"Youth council 2015",
+    "start2013":"Youth council 2013",
     "joinUs":"Join us!",
+    "achievement":"Discover us!",
     "startDescription":"Participate in the development of your own community"
   },
   "nav":{
@@ -52,7 +54,15 @@
     "figCaptionDescription5":"Newspapers talk about our activities.",
     "figCaptionTitle61":"Memebers",
     "figCaptionTitle62":"2013",
-    "figCaptionDescription6":"The youth council team of 2013."
+    "figCaptionDescription6":"The youth council team of 2013.",
+    "training2013":"Training & Workshops 2013",
+    "artCompetition":"Art competition",
+    "projects":"Minin Projects 2013",
+    "studyTrip":"Study trip 2013",
+    "guideBook":"Guide book",
+    "firtEdition":"First Edition, click to download",
+    "secondEdition":"Second Editon, click to download",
+    "thirdEdition":"Third Edition, click to download"
   },
   "team":{
     "pfblockTitle":"Youth council team",
