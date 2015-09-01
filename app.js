@@ -54,6 +54,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/sendEmail',email.sendEmail);
+// redirect to facebook page
+app.use('/facebookpage',routes);
 // youth council 2015
 app.get('/youthcouncil2015',youthcouncils2015.youthcouncil2015);
 app.get('/download_calendar',youthcouncils2015.downloadCalendar);
