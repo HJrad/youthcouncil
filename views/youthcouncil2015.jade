@@ -10,7 +10,7 @@ block content
   section#homeyouthcouncil2015.pfblock-image.screen-height
     .home-overlay
     .intro
-      .start= t('home.start')
+      .start= t('home.start2013')
       a(href='#training')= t('home.achievement')
       .start= t('home.startDescription')
     a(href='#training')
@@ -37,7 +37,7 @@ block content
             li
               a(href="/youthcouncil2015")= t('nav.youthcouncil2015') 
             li
-              a(href="/youthcouncil2013")= t('nav.youthcouncil2015') 
+              a(href="/youthcouncil2013")= t('nav.youthcouncil2013') 
             li
               a(href="/#teams")= t('nav.teams') 
             li
@@ -239,3 +239,136 @@ block content
             img(src="img/training2015/45.png", alt="45" , height="100", width="120")   
     // .contaier
   // training & workshop 2015 ends: description + gallery
+
+  // Erriadh team: description
+  section#erriadh.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('team.textCenter1')
+            .pfblock-line
+            .pfblock-subtitle= t('team.erriadhDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/AymenHadjFarhat.jpg', alt='46', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorErriadh')
+                span= t('team.coordinatorErriadhDescription')
+
+  // Hammam Sousse team: description
+  section#hammamSousse.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('team.textCenter2')
+            .pfblock-line
+            .pfblock-subtitle= t('team.hsDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/HanenJrad.jpg', alt='47', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorHS')
+                span= t('team.coordinatorHSDescription')
+
+  // Kalaa Kebira team: description
+  section#kalaaKebira.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('team.textCenter3')
+            .pfblock-line
+            .pfblock-subtitle= t('team.kkDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/MarwenBenArbia.jpg', alt='48', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorKK')
+                span= t('team.coordinatorKKDescription')
+
+  // Ksibet Mediouni team: description
+  section#ksibetMediouni.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('team.textCenter4')
+            .pfblock-line
+            .pfblock-subtitle= t('team.kmDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/AymenBenRomdhane.jpg', alt='49', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorKM')
+                span= t('team.coordinatorKMDescription')
+
+  // Monastir team: description
+  section#monastir.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('team.textCenter5')
+            .pfblock-line
+            .pfblock-subtitle= t('team.monastirDescritpion')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/Ranim.jpg', alt='50', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorMonastir')
+                span= t('team.coordinatorMonastirDescription')
+
+  // Msaken team: description
+  section#msaken.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('team.textCenter6')
+            .pfblock-line
+            .pfblock-subtitle= t('team.msakenDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/Ilyes.jpg', alt='51', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorMsaken')
+                span= t('team.coordinatorMsakenDescription')
+
+  // Erriadh team: description
+  section#sousse.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('team.textCenter7')
+            .pfblock-line
+            .pfblock-subtitle= t('team.sousseDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/Mehdi.jpg', alt='46', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorSousse')
+                span= t('team.coordinatorSousseDescription')
+
+
+
+
+
+
+
+
+block footer  
+   
+  script.
+    document.getElementById('trainingPictures').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+          link = target.src ? target.parentNode : target,
+          options = {index: link, event: event},
+          links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+    };
+     
+        
