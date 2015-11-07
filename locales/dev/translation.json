@@ -41,7 +41,14 @@
         "projectSousse": "XXXX",
         "projectMonastir": "XXXX",
         "projectKM": "XXXX",
-        "projectMsaken": "XXXX"
+        "projectMsaken": "XXXX",
+        "erriadh": "XXXX",
+        "hs": "XXXX",
+        "kk": "XXXX",
+        "km": "XXXX",
+        "monastir": "XXXX",
+        "msaken": "XXXX",
+        "sousse": "XXXX"
     },
     "youthcouncil2013": {
         "pfblockTitle": "XXXX",
@@ -112,7 +119,12 @@
         "coordinatorMonastir": "XXXX",
         "monastirDescritpion": "XXXX",
         "coordinatorMonastirDescription": "XXXX",
-        "msakenYC": "team.msakenYC"
+        "msakenYC": "XXXXX",
+        "hsMember1": "",
+        "hsMember2": "",
+        "hsMember3": "",
+        "hsMember4": "",
+        "hsMember5": ""
     },
     "action": {
         "readyToJoin": "XXXX",

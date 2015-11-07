@@ -37,11 +37,18 @@
     "trainingDescription":"The training for youth leaders was held in Kelibia on 19th – 21st June – as part of the ‘Youth Councils in Tunisia’ project. The training was addressed to youth leadres representing Youth Councils from seven localities in Tunisia: Sousse, Hammama Sousse, Monastir, M’saken, Kalaa Kebira, Hay Riadh i Kisbet el Madyouni and it was carried out by Polish trainers from Foundation of Active People and Places. It was focused on how to introduce participative democratic mechanism to everyday practice of local municipalities as well as development of knowledge and skills usefull in being an active member in Youth Council.  The important experience for participants was Oxford debate on thesis ‘Youth Councils could be a serious partner in the dialogue with local government’ as it evoked plenty of discussions and emotions. The additional value of the training was the opportunity for exchange information and experiences among representatives of seven Youth Councils and integration. The training is an action of the ‘Youth Councils in Tunisia’ project, cofinanced by the Polish development cooperation programme of the Ministry of Foreign Affairs of the Republic of Poland . Program ‘Support for Democracy’, implemented by Polish Foundation of Active People and Places (MiLA) and Tunisian Associations EUREKA and ‘We Love Sousse’.",
     "projectErriadh":"L’idée de ce projet est d’aménager le terrain de sport situé à Cité Riadh. Cela fait des années que le terrain est dans un piteux état. Pourtant, beaucoup de jeunes s’y retrouvent pour taper la balle et s’amuser. Entretenir ce terrain va donner un espoir aux jeunes et va leur offrir une occasion pour améliorer leurs talent. Au cours de ce projet, on va entretenir le terrain en faisant le traçage des lignes et en installant des cages. On va nettoyer l’entourage du terrain et peindre la clôture et la décorer avec des graffités. Après avoir achevé cette partie du projet, on va organiser des tournois pour les jeunes des deux sexes pour les encourager à faire du sport et surtout pour encourager les sports féminins.",
     "projectKK":"The train station of Kalaa Kebira is not well equiped and that is why Youth Council takes the initiative to equip the train station and embellish it because it gives service for more than 1600 people per month, 1600 passengers wait for the train without canvas protect him of sun in summer and of rain in winter, nothing to do when they are waiting for the train and no light by night and no trash can. We  start with painting and decorating the train station in the traditionnel style. Then  we will complete the folowing activities : add chairs with canvas, add a small library in the waiting room, graphite and install trash can, bright ensigns, provide electricity, install a playground, add a clock and trash. This project is basically addressed to passengers who often use this station to travel by train. We are planning to involve volunteers as well as members of Youth Council.",
-    "projectHS":"",
+    "projectHS":"Our project sets as its mains objective to provide space for youth to inspire and support the various talents they have. In Hammam Sousse, we have many clubs and active youth with promising talents and potentials not finding a space where they may incvest their skills and energy. The Youth Council team saw in the cultural center of Hammam Sousse the perfect place. The cultural center in Hammam Sousse has been closed for two years for some reparations. Now, it is well-arranged but lacks many equipments. We have contacted the local government  to be part of the process, and took charge of the arragement and furnishment of two rooms and lodges. Once set, the center will host regional and local festivals, animate Hammam Sousse, and a well-equiped space to meet and concretize their projects.",
     "projectSousse":"",
     "projectMonastir":"",
     "projectKM":"",
-    "projectMsaken":""
+    "projectMsaken":"",
+    "erriadh":"Erriadh mini project",
+    "hs":"Hammam Sousse mini project",
+    "kk":"Kalaa Kebira mini project",
+    "km":"Ksibet Mediouni mini project",
+    "monastir":"Monastir mini project",
+    "msaken":"M'Saken mini project",
+    "sousse":"Sousse mini project"
   },
   "youthcouncil2013":{
     "pfblockTitle":"Projects 2013",
@@ -111,7 +118,12 @@
     "coordinatorKMDescription":"24 ans, Elève ingénieur de l’ENISO, Président Actuel de l’association Eurêka,Aussi, Ex responsable visites à la Junior Entreprise ENISo, Ex responsable marketing et talent management chez AIESEC Ruspina et ex responsable festivités chez Eurêka.",
     "coordinatorMonastir":"Ranim Slimen",
     "monastirDescritpion":"Monastir est une ville côtière  du sahel tunisien, Son essor touristique est dû aux innombrables atouts de la ville et de sa zone. Monastir est l’ancienne Rous Penna punique que les Romains ont transformée en Ruspina. Elle a servi de point d'appui à la campagne africaine de César. Elle était protégée par 3 enceintes dont quelques traces subsistent encore. Après la conquête arabe, on y a construit, comme à Sousse et ailleurs, un ribat, forteresse tenue par une sorte de moines soldats. Les Turcs en ont fait à nouveau une place forte. Monastir est aujourd'hui une importante ville universitaire, les étudiants représentant un cinquième de la population.",
-    "coordinatorMonastirDescription":"Ingénieur en informatique, passionné par la vie associative, j’apprécie particulièrement de devoir découvrir et maîtriser des nouvelles manières pour aimer la vie et connaitre des solutions innovantes qui nous aident à changer notre Tunisie vers le bien."
+    "coordinatorMonastirDescription":"Ingénieur en informatique, passionné par la vie associative, j’apprécie particulièrement de devoir découvrir et maîtriser des nouvelles manières pour aimer la vie et connaitre des solutions innovantes qui nous aident à changer notre Tunisie vers le bien.",
+    "hsMember1":"",
+    "hsMember2":"",
+    "hsMember3":"",
+    "hsMember4":"",
+    "hsMember5":""
   },
   "action":{
     "readyToJoin":"ARE YOU READY TO JOIN?",

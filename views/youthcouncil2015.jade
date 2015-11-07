@@ -248,25 +248,47 @@ block content
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('team.textCenter1')
+            h2.pfblock-title= t('youthcouncil2015.erriadh')
             .pfblock-line
             .pfblock-subtitle= t('youthcouncil2015.projectErriadh')
     // .contaier
   // miniProjectHS 2013 ends: description + gallery
 
-  //- // ==========================================================================
-  //- // Hammam Sousse
-  //- // ==========================================================================
-  //- section#projects.pfblock
-  //-   .container
-  //-     .row
-  //-       .col-sm-6.col-sm-offset-3
-  //-         .pfblock-header.wow.fadeInUp
-  //-           h2.pfblock-title= t('team.textCenter2')
-  //-           .pfblock-line
-  //-           .pfblock-subtitle= t('youthcouncil2013.figCaptionDescription2')
-  //-   // .contaier
-  //- // miniProjectHS 2013 ends: description + gallery
+  // ==========================================================================
+  // Hammam Sousse
+  // ==========================================================================
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.hs')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.projectHS')
+    // .contaier
+    // The Gallery as lightbox dialog, should be a child element of the document body
+    .container
+      #linksminiProjectHS
+        a(href="img/hammamSousse2015/1.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/1.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/2.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/2.jpg", alt="2", height="100", width="120")
+
+        a(href="img/hammamSousse2015/3.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/3.jpg", alt="3" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/4.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/4.jpg", alt="4" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/5.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/5.jpg", alt="5" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/6.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/6.jpg", alt="6" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/7.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/7.jpg", alt="7" , height="100", width="120")
 
   // ==========================================================================
   // Kalaa Kebira
@@ -276,7 +298,7 @@ block content
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('team.textCenter3')
+            h2.pfblock-title= t('youthcouncil2015.kk')
             .pfblock-line
             .pfblock-subtitle= t('youthcouncil2015.projectKK')
     // .contaier
@@ -324,6 +346,36 @@ block content
             .media
               .media-left
                 img.media-object(src='img/coordinators/HanenJrad.jpg', alt='47', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorHS')
+                span= t('team.coordinatorHSDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/hammamSousse/hibaKalbousi.jpg', alt='47', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorHS')
+                span= t('team.coordinatorHSDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/hammamSousse/hichemHosny.jpg', alt='47', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorHS')
+                span= t('team.coordinatorHSDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/hammamSousse/meriamBenMustapha.jpg', alt='47', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorHS')
+                span= t('team.coordinatorHSDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/hammamSousse/naiimbsili.jpg', alt='47', height="160", width="180")
+              .media-body
+                h4.media-heading= t('team.coordinatorHS')
+                span= t('team.coordinatorHSDescription')
+            .media
+              .media-left
+                img.media-object(src='img/coordinators/hammamSousse/nidhalChemkhi.jpg', alt='47', height="160", width="180")
               .media-body
                 h4.media-heading= t('team.coordinatorHS')
                 span= t('team.coordinatorHSDescription')
