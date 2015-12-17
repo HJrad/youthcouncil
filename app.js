@@ -25,7 +25,9 @@ var app = express();
 // initialization of the language framework
 i18n.init({
   saveMissing: true,
-  debug: true
+  lng: 'en-US',
+  debug: true,
+  fallbackLng: 'en-US'
 });
 
 function compile(str, path) {
