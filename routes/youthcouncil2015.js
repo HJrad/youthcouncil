@@ -6,6 +6,6 @@ exports.youthcouncil2015= function(req, res) {
 
 /* download the project calendar */ 
 exports.downloadCalendar= function(req, res) {
-	res.download('./public/Study_visit_agenda.pdf');
+	res.download('./public/Project-Calendar.pdf');
 }
 
