@@ -27,7 +27,7 @@ exports.sendEmail= function(req, res) {
   var mailOptions = {
       from: 'no-reply-Youth Council Tunisia <no-reply@youthcouncilstunisia.org>', // sender address
       to: email, // list of receivers
-      bcc: 'hamza_jrad@yahoo.fr',
+      bcc: 'contact@youthcouncilstunisia.org',
       subject: 'no-reply-Youth Council Tunisia', // Subject line
       text: message, // plaintext body
       html: '<p> Hi '+name+', </p>'+'<p> We received your message a coordinator will contact you soon </p>'+

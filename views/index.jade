@@ -315,12 +315,12 @@ block content
             .ajax-hidden
               .form-group.wow.fadeInUp
                 label.sr-only(for="c_name")= t('contact.name')
-                input#c_name.form-control(type="text", name="c_name", placeholder!=t('contact.name'))
+                input#c_name.form-control(type="text", name="c_name", placeholder!=t('contact.name') required)
               .form-group.wow.fadeInUp(data-wow-delay=".1s")
                 label.sr-only(for="c_email")= t('contact.email')
-                input#c_email.form-control(type="email", name="c_email", placeholder!=t('contact.email'))
+                input#c_email.form-control(type="email", name="c_email", placeholder!=t('contact.email') required)
               .form-group.wow.fadeInUp(data-wow-delay=".2s")
-                textarea#c_message.form-control(name="c_message", rows="7", placeholder!=t('contact.message'))
+                textarea#c_message.form-control(name="c_message", rows="7", placeholder!=t('contact.message') required)
               button.btn.btn-lg.btn-block.wow.fadeInUp(id='submitBtn', type="submit", data-wow-delay=".3s")= t('contact.sendMsg')
             .ajax-response
       // .row
