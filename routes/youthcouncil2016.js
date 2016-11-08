@@ -1,7 +1,7 @@
 
 /* GET youthcouncil2015 page. */
-exports.youthcouncil2015= function(req, res) {
-	res.render('youthcouncil2015', { title: 'Youth Council 2015' });
+exports.youthcouncil2016= function(req, res) {
+	res.render('youthcouncil2016', { title: 'Youth Council New Edition 2016' });
 }
 
 /* download the project calendar */

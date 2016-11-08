@@ -13,7 +13,7 @@ block content
       .start= t('home.start')
       a(href='#youthcouncil2015')= t('home.joinUs')
       .start= t('home.startDescription')
-    a(href='#youthcouncil2015')
+    a(href='#youthcouncil2016')
       .scroll-down
         span
           i.fa.fa-angle-down.fa-2x
@@ -35,9 +35,16 @@ block content
             li
               a(href="#home")= t('nav.home')
             li
-              a(href="#youthcouncil2015")= t('nav.youthcouncil2015') 
+              a(href="#youthcouncil2016")= t('nav.youthcouncil2016')
             li
-              a(href="#youthcouncil2013")= t('nav.youthcouncil2013') 
+              a.aFlag.dropdown-toggle(type='button', data-toggle='dropdown')
+                span= t('nav.previous_editions')
+                span.caret
+              ul.dropdown-menu(role='menu')
+                li
+                  a(href="#youthcouncil2015")= t('nav.youthcouncil2015') 
+                li
+                  a(href="#youthcouncil2013")= t('nav.youthcouncil2013')             
             li
               a(href="#teams")= t('nav.teams') 
             li
@@ -64,58 +71,126 @@ block content
     // .container
   // Navigation end
 
-  // Youth council 2015 start 
-  section#youthcouncil2015.pfblock.pfblock-gray
+  // Youth council 2016 start 
+  section#youthcouncil2016.pfblock.pfblock-gray
     .container
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('youthcouncil2015.pfblockTitle') 
+            h2.pfblock-title= t('youthcouncil2016.pfblockTitle') 
             .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2015.pfblockSubtitle')
+            .pfblock-subtitle= t('youthcouncil2016.pfblockSubtitle')
         .col-sm-4.col-sm-offset-4 
           .iconbox.wow.slideInRight
             .iconbox-icon
               span.fa.fa-users
             .iconbox-text
               a.iconbox-title(href='#contact')= t('home.joinUs')
-              .iconbox-desc= t('youthcouncil2015.iconboxDesc1') 
+              .iconbox-desc= t('youthcouncil2016.iconboxDesc1') 
       .row
         .col-sm-3
           .iconbox.wow.slideInLeft
             .iconbox-icon
               span.fa.fa-university
             .iconbox-text
-              h3.iconbox-title= t('youthcouncil2015.iconboxTitle1') 
-              .iconbox-desc= t('youthcouncil2015.iconboxDesc2')
-              a.ajoinus(href='/youthcouncil2015')= t('youthcouncil2015.readMore')
+              h3.iconbox-title= t('youthcouncil2016.iconboxTitle1') 
+              .iconbox-desc= t('youthcouncil2016.iconboxDesc2')
+              a.ajoinus(href='/youthcouncil2016')= t('youthcouncil2016.readMore')
         .col-sm-3
           .iconbox.wow.slideInLeft
             .iconbox-icon
               span.icon-puzzle
             .iconbox-text
-              h3.iconbox-title= t('youthcouncil2015.iconboxTitle2') 
-              .iconbox-desc= t('youthcouncil2015.iconboxDesc3')
-              a.ajoinus(href='/youthcouncil2015#projects')= t('youthcouncil2015.readMore')
+              h3.iconbox-title= t('youthcouncil2016.iconboxTitle2') 
+              .iconbox-desc= t('youthcouncil2016.iconboxDesc3')
+              a.ajoinus(href='/youthcouncil2016#projects')= t('youthcouncil2016.readMore')
         .col-sm-3
           .iconbox.wow.slideInRight
             .iconbox-icon
               span.icon-badge
             .iconbox-text
-              h3.iconbox-title= t('youthcouncil2015.iconboxTitle3') 
-              .iconbox-desc= t('youthcouncil2015.iconboxDesc4')
-              a.ajoinus(href='/youthcouncil2015#training')= t('youthcouncil2015.readMore')
+              h3.iconbox-title= t('youthcouncil2016.iconboxTitle3') 
+              .iconbox-desc= t('youthcouncil2016.iconboxDesc4')
+              a.ajoinus(href='/youthcouncil2016#training')= t('youthcouncil2016.readMore')
         .col-sm-3
           .iconbox.wow.slideInRight
             .iconbox-icon
               span.icon.fa.fa-tachometer
             .iconbox-text
-              h3.iconbox-title= t('youthcouncil2015.iconboxTitle4') 
-              .iconbox-desc= t('youthcouncil2015.iconboxDesc5')
-              a.ajoinus(href='/download_calendar')= t('youthcouncil2015.download')
+              h3.iconbox-title= t('youthcouncil2016.iconboxTitle4') 
+              .iconbox-desc= t('youthcouncil2016.iconboxDesc5')
+              a.ajoinus(href='/download_calendar')= t('youthcouncil2016.download')
 
       // .row
     // .container
+  // Youth council 2016 end
+
+  // Youth council 2015 starts
+  section#youthcouncil2015.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.pfblockTitle')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.pfblockSubtitle')            
+      // .row
+      .row
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/img/item-1.jpg",height="250", width="360",alt="img01")
+              figcaption                
+                a(href='/youthcouncil2015#training')
+                h2= t('youthcouncil2015.figCaptionTitle11')
+                  span= t('youthcouncil2015.figCaptionTitle12') 
+                p= t('youthcouncil2015.figCaptionDescription1')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/img/item-2.jpg",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/youthcouncil2015#miniprojects')
+                h2= t('youthcouncil2015.figCaptionTitle21')
+                  span= t('youthcouncil2015.figCaptionTitle22')
+                p= t('youthcouncil2015.figCaptionDescription2')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/img/item-3.jpg",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/youthcouncil2015#artCompetition')
+                h2= t('youthcouncil2015.figCaptionTitle31')
+                  span= t('youthcouncil2015.figCaptionTitle32')
+                p= t('youthcouncil2015.figCaptionDescription3')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/img/item-4.jpg",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/youthcouncil2015#studyTrip')
+                h2= t('youthcouncil2015.figCaptionTitle41')
+                  span= t('youthcouncil2015.figCaptionTitle42')
+                p= t('youthcouncil2015.figCaptionDescription4')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/img/item-5.jpg",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/youthcouncil2015#newspaper')
+                h2= t('youthcouncil2015.figCaptionTitle51')
+                  span= t('youthcouncil2015.figCaptionTitle52')
+                p= t('youthcouncil2015.figCaptionDescription5')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="/img/item-6.jpg",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/youthcouncil2015')
+                h2= t('youthcouncil2015.figCaptionTitle61')
+                  span= t('youthcouncil2015.figCaptionTitle62')
+                p= t('youthcouncil2015.figCaptionDescription6')
+    // .contaier
   // Youth council 2015 end
 
   // Youth council 2013 starts

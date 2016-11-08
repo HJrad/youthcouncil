@@ -14,6 +14,8 @@ var Promise = require('promise');
 var routes = require('./routes/index');
 // contact email
 var email = require('./routes/sendEmail');
+// youthcouncil 2016 routes
+var youthcouncils2016 = require('./routes/youthcouncil2016');
 // youthcouncil 2015 routes
 var youthcouncils2015 = require('./routes/youthcouncil2015');
 // youthcouncil 2013 routes
@@ -58,6 +60,9 @@ app.use('/', routes);
 app.use('/sendEmail',email.sendEmail);
 // redirect to facebook page
 app.use('/facebookpage',routes);
+// youth council 2016
+app.get('/youthcouncil2016',youthcouncils2016.youthcouncil2016);
+app.get('/download_calendar',youthcouncils2016.downloadCalendar);
 // youth council 2015
 app.get('/youthcouncil2015',youthcouncils2015.youthcouncil2015);
 app.get('/download_calendar',youthcouncils2015.downloadCalendar);
