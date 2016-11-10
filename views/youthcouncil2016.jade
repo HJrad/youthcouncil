@@ -37,9 +37,14 @@ block content
             li
               a(href="/youthcouncil2016")= t('nav.youthcouncil2016')
             li
-              a(href="/youthcouncil2015")= t('nav.youthcouncil2015')
-            li
-              a(href="/youthcouncil2013")= t('nav.youthcouncil2013')
+              a.aFlag.dropdown-toggle(type='button', data-toggle='dropdown')
+                span= t('nav.previous_editions')
+                span.caret
+              ul.dropdown-menu(role='menu')
+                li
+                  a(href="/youthcouncil2015")= t('nav.youthcouncil2015') 
+                li
+                  a(href="/youthcouncil2013")= t('nav.youthcouncil2013')
             li
               a(href="/#teams")= t('nav.teams')
             li

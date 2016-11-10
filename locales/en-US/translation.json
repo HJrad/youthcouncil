@@ -60,7 +60,8 @@
         "atiniAidi": ": This event was the first social action organized by Youth Council M’saken. It consists of collecting toys and all sorts of gifts which will be offered to children as part of the “Aid”, a Tunisian religious holiday, festivities. This event was realized in partnership with Culture House of M’saken (a governmental institution) and Caring for Orphans Association",
         "fitnessCreed": "Fitness Creed 2015: Addressing the cultural stagnation in M’saken community and lack of public fitness spaces, this event sought to offer access to a quality sport event, with renown coaches and entertaining activities. It reached more than 150 active participants and was one of the first events realized in M’saken municipality. It managed to achieve mixed participation: female, males, old and young participants.",
         "forumOrientation": "Forum d’Orientation 2015 is an educational action realized by Youth Council M’saken Team in the Culture House. It provides the newly graduates of Baccalaureate exam with assistance when it comes to choosing their future studies and options. It included a rich program with teachers and orientation specialists who delivered pivotal tips for successful choices.",
-        "dream": "Penser Grand, Viser Haut, an event dedicated to those who are going to sit for their Baccalaureate exam, achieved a tremendous success. It sought to give the pupils not only revision tips, but also a psychological assistance to face the stressful pre-exam condition. Different famous speakers took in charge the task of inspiring, de-stressing and helping the participants in an interactive context."
+        "dream": "Penser Grand, Viser Haut, an event dedicated to those who are going to sit for their Baccalaureate exam, achieved a tremendous success. It sought to give the pupils not only revision tips, but also a psychological assistance to face the stressful pre-exam condition. Different famous speakers took in charge the task of inspiring, de-stressing and helping the participants in an interactive context.",
+        "training2016": "youthcouncil2016.training2016"
     },
     "youthcouncil2015": {
         "pfblockTitle": "Projects 2015",
@@ -92,7 +93,27 @@
         "firtEdition": "First Edition, click to download",
         "secondEdition": "Second Editon, click to download",
         "thirdEdition": "Third Edition, click to download",
-        "download": "youthcouncil2015.download"
+        "download": "youthcouncil2015.download",
+        "miniproject": "youthcouncil2015.miniproject",
+        "miniprojectDescrip": "youthcouncil2015.miniprojectDescrip",
+        "erriadh": "youthcouncil2015.erriadh",
+        "projectErriadh": "youthcouncil2015.projectErriadh",
+        "hs": "youthcouncil2015.hs",
+        "projectHS": "youthcouncil2015.projectHS",
+        "kk": "youthcouncil2015.kk",
+        "projectKK": "youthcouncil2015.projectKK",
+        "km": "youthcouncil2015.km",
+        "projectKM": "youthcouncil2015.projectKM",
+        "msaken": "youthcouncil2015.msaken",
+        "projectMsaken": "youthcouncil2015.projectMsaken",
+        "atiniAidi": "youthcouncil2015.atiniAidi",
+        "fitnessCreed": "youthcouncil2015.fitnessCreed",
+        "forumOrientation": "youthcouncil2015.forumOrientation",
+        "dream": "youthcouncil2015.dream",
+        "monastir": "youthcouncil2015.monastir",
+        "projectMonastir": "youthcouncil2015.projectMonastir",
+        "finalConference": "youthcouncil2015.finalConference",
+        "conferenceDescrip": "youthcouncil2015.conferenceDescrip"
     },
     "youthcouncil2013": {
         "pfblockTitle": "Projects 2013",
