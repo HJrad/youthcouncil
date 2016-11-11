@@ -113,7 +113,9 @@
         "monastir": "youthcouncil2015.monastir",
         "projectMonastir": "youthcouncil2015.projectMonastir",
         "finalConference": "youthcouncil2015.finalConference",
-        "conferenceDescrip": "youthcouncil2015.conferenceDescrip"
+        "conferenceDescrip": "youthcouncil2015.conferenceDescrip",
+        "training2015": "youthcouncil2015.training2015",
+        "trainingDescription": "youthcouncil2015.trainingDescription"
     },
     "youthcouncil2013": {
         "pfblockTitle": "Projects 2013",

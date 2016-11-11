@@ -1,0 +1,236 @@
+extends ../layout
+  
+block content
+
+  // Preloader
+  div#preloader
+    div#status
+
+  // Home start
+  section#homeyouthcouncil2015.pfblock-image.screen-height
+    .home-overlay
+    .intro
+      .start= t('home.start')
+      a(href='#training')= t('home.achievement')
+      .start= t('home.startDescription')
+    a(href='#training')
+      .scroll-down
+        span
+          i.fa.fa-angle-down.fa-2x
+  // Home end
+
+  // Navigation start
+  header.header
+    nav.navbar.navbar-custom(role="navigation")
+      .container
+        .navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target="#custom-collapse")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/")= t('home.start')
+        #custom-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href="/")= t('nav.home')
+            li
+              a(href="/youthcouncil2015")= t('nav.youthcouncil2015') 
+            li
+              a(href="/youthcouncil2013")= t('nav.youthcouncil2013') 
+            li
+              a(href="/#teams")= t('nav.teams') 
+            li
+              a(href="/#partners")= t('nav.partners') 
+            li
+              a(href="/#contact")= t('nav.contact') 
+            li
+              a.aFlag.dropdown-toggle(type='button', data-toggle='dropdown')
+                span.fa.fa-flag
+                span= t('nav.languages')
+                span.caret
+              ul.dropdown-menu(role='menu')
+                li
+                  a(href='?setLng=ar')= t('nav.arabe') 
+                li.divider
+                li
+                  a(href='?setLng=en')= t('nav.english') 
+                li.divider
+                li
+                  a(href='?setLng=fr')= t('nav.french') 
+                li.divider
+                li
+                  a(href='?setLng=dev')= t('nav.test') 
+    // .container
+  // Navigation end
+
+
+  // ==========================================================================
+  // Mini projects
+  // ==========================================================================
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.miniproject')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.miniprojectDescrip')
+    // .contaier
+  // erriadh 2015 ends: description + gallery
+
+  // ==========================================================================
+  // ERRIADH
+  // ==========================================================================
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.erriadh')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.projectErriadh')
+    // .contaier
+  // erriadh 2015 ends: description + gallery
+
+  // ==========================================================================
+  // Hammam Sousse
+  // ==========================================================================
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.hs')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.projectHS')
+    // .contaier
+    // The Gallery as lightbox dialog, should be a child element of the document body
+    .container
+      #linksminiProjectHS
+        a(href="img/hammamSousse2015/1.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/1.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/2.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/2.jpg", alt="2", height="100", width="120")
+
+        a(href="img/hammamSousse2015/3.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/3.jpg", alt="3" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/4.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/4.jpg", alt="4" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/5.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/5.jpg", alt="5" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/6.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/6.jpg", alt="6" , height="100", width="120")
+
+        a(href="img/hammamSousse2015/7.jpg", title="Hammam Sousse mini project 2015", data-gallery="")
+          img(src="img/hammamSousse2015/7.jpg", alt="7" , height="100", width="120")
+
+  // ==========================================================================
+  // Kalaa Kebira
+  // ==========================================================================
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.kk')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.projectKK')
+    // .contaier
+  // miniProjectKK 2013 ends: description + gallery
+
+  // ==========================================================================
+  // Ksibet Mediouni
+  // ==========================================================================
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.km')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.projectKM')
+    // .contaier
+  // miniProjectKK 2013 ends: description + gallery
+
+  // ==========================================================================
+  // M'Saken
+  // ==========================================================================
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2015.msaken')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.projectMsaken')
+    // .contaier
+    // The Gallery as lightbox dialog, should be a child element of the document body
+    .container
+      #linksminiProjectMsaken
+        a(href="img/msaken2015/miniProject/1.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/1.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/miniProject/2.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/2.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/miniProject/3.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/3.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/miniProject/4.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/4.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/miniProject/5.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/5.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/miniProject/6.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/6.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/miniProject/7.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/7.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/miniProject/8.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/miniProject/8.jpg", alt="1" , height="100", width="120")
+  // miniProjectM 2013 ends: description + gallery
+
+  // Event Atini Aidi
+  section#projects.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2015.atiniAidi')
+    // .contaier
+    // The Gallery as lightbox dialog, should be a child element of the document body
+    .container
+      #linksminiProjectMsaken
+        a(href="img/msaken2015/atiniAidi/1.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/atiniAidi/1.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/atiniAidi/2.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/atiniAidi/2.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/atiniAidi/3.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/atiniAidi/3.jpg", alt="1" , height="100", width="120")
+
+        a(href="img/msaken2015/atiniAidi/4.jpg", title="M'Saken mini project 2015", data-gallery="")
+          img(src="img/msaken2015/atiniAidi/4.jpg", alt="1" , height="100", width="120")
+  // end event atini aidi
+
+
+
+block footer  
+   
+  script.
+    document.getElementById('trainingPictures').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+          link = target.src ? target.parentNode : target,
+          options = {index: link, event: event},
+          links = this.getElementsByTagName('a');
+      blueimp.Gallery
