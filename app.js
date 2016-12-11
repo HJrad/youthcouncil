@@ -74,6 +74,8 @@ app.get('/youthcouncil2015/training',youthcouncils2015.training);
 app.get('/youthcouncil2013/studyTrip',youthcouncils2013.studyTrip);
 app.get('/youthcouncil2013/miniProjects',youthcouncils2013.miniProjects);
 app.get('/youthcouncil2013/training',youthcouncils2013.training);
+app.get('/youthcouncil2013/newspaper',youthcouncils2013.newspaper);
+app.get('/youthcouncil2013/artCompetition',youthcouncils2013.artCompetition);
 app.get('/newspaperAout',youthcouncils2013.downloadFirstEdition);
 app.get('/newspaperSept',youthcouncils2013.downloadSecondEdition);
 app.get('/guidebook',youthcouncils2013.downloadGuideBook);

@@ -14,9 +14,14 @@ exports.miniProjects= function(req, res) {
 	res.render('youthcouncil2013/miniprojects', { title: 'Youth Council New Edition 2013' });
 }
 
-/* GET youthcouncil2013 mini projects page. */
-exports.description= function(req, res) {
-	res.render('youthcouncil2013/description', { title: 'Youth Council New Edition 2013' });
+/* GET youthcouncil2013 art Competition page. */
+exports.artCompetition= function(req, res) {
+	res.render('youthcouncil2013/artCompetition', { title: 'Youth Council New Edition 2013' });
+}
+
+/* GET youthcouncil2013 newspaper page. */
+exports.newspaper= function(req, res) {
+	res.render('youthcouncil2013/newspaper', { title: 'Youth Council New Edition 2013' });
 }
 
 /* download the 1st edition of newspaper */
