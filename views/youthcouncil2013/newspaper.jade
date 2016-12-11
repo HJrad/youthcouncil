@@ -1,0 +1,137 @@
+extends ../layout
+  
+block content
+
+  // Preloader
+  div#preloader
+    div#status
+
+  // Home start
+  section#homeyouthcouncil2013.pfblock-image.screen-height
+    .home-overlay
+    .intro
+      .start= t('home.start2013')
+      a(href='#training')= t('home.achievement')
+      .start= t('home.startDescription')
+    a(href='#training')
+      .scroll-down
+        span
+          i.fa.fa-angle-down.fa-2x
+  // Home end
+
+  // Navigation start
+  header.header
+    nav.navbar.navbar-custom(role="navigation")
+      .container
+        .navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target="#custom-collapse")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/")= t('home.start')
+        #custom-collapse.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href="/")= t('nav.home')
+            li
+              a(href="/youthcouncil2016")= t('nav.youthcouncil2016')
+            li
+              a.aFlag.dropdown-toggle(type='button', data-toggle='dropdown')
+                span= t('nav.previous_editions')
+                span.caret
+              ul.dropdown-menu(role='menu')
+                li
+                  a(href="/youthcouncil2016")= t('nav.youthcouncil2016') 
+                li
+                  a(href="/youthcouncil2013")= t('nav.youthcouncil2013')
+            li
+              a(href="/#partners")= t('nav.partners')
+            li
+              a(href="/#contact")= t('nav.contact')
+            li
+              a.aFlag.dropdown-toggle(type='button', data-toggle='dropdown')
+                span.fa.fa-flag
+                span= t('nav.languages')
+                span.caret
+              ul.dropdown-menu(role='menu')
+                li
+                  a(href='?setLng=ar')= t('nav.arabe')
+                li.divider
+                li
+                  a(href='?setLng=en')= t('nav.english')
+                li.divider
+                li
+                  a(href='?setLng=fr')= t('nav.french')
+                li.divider
+                li
+                  a(href='?setLng=dev')= t('nav.test')
+    // .container
+  // Navigation end
+
+  // ================================================================
+  //        Guide book
+  // ================================================================
+  // call to action starts
+  section.calltoaction
+    .container
+      .row
+        .col-md-12.col-lg-12
+          h2.wow.slideInRight(data-wow-delay=".1s")= t('youthcouncil2013.guideBook')
+          .calltoaction-decription.wow.slideInRight(data-wow-delay=".2s")= t('youthcouncil2013.guideBookDescription')
+        .col-md-12.col-lg-12.calltoaction-btn.wow.slideInRight(data-wow-delay=".3s")
+          a.btn.btn-lg(href="/guidebook")= t('youthcouncil2016.download')
+      // .row
+    // .container
+  // call to action ends
+
+  // ==================================================================
+  //      Newspaper
+  // ==================================================================
+  // Youth council 2013 starts
+  section#newspaper.pfblock
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          .pfblock-header.wow.fadeInUp
+            h2.pfblock-title= t('youthcouncil2013.figCaptionTitle51')
+            .pfblock-line
+            .pfblock-subtitle= t('youthcouncil2013.figCaptionDescription5')
+      // .row
+      .row
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="../img/newspapers/1.jpg",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/newspaperAout')
+                h2= t('youthcouncil2013.figCaptionTitle51')
+                p= t('youthcouncil2013.firtEdition')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="../img/newspapers/newspaper_aout.png",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/newspaperSept')
+                h2= t('youthcouncil2013.figCaptionTitle51')
+                p= t('youthcouncil2013.secondEdition')
+        .col-xs-12.col-sm-4.col-md-4
+          .grid.wow.zoomIn
+            figure.effect-bubba
+              img(src="../img/newspapers/newspaper_september.png",height="250", width="360",alt="img01")
+              figcaption
+                a(href='/newspaperSept')
+                h2= t('youthcouncil2013.figCaptionTitle51')
+                p= t('youthcouncil2013.thirdEdition')
+
+
+block footer  
+   
+  script.
+    document.getElementById('trainingPictures').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+          link = target.src ? target.parentNode : target,
+          options = {index: link, event: event},
+          links = this.getElementsByTagName('a');
+      blueimp.Gallery

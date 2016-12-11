@@ -7,10 +7,10 @@ block content
     div#status
 
   // Home start
-  section#homeyouthcouncil2016.pfblock-image.screen-height
+  section#homeyouthcouncil2013.pfblock-image.screen-height
     .home-overlay
     .intro
-      .start= t('home.start')
+      .start= t('home.start2013')
       a(href='#training')= t('home.achievement')
       .start= t('home.startDescription')
     a(href='#training')
@@ -111,276 +111,391 @@ block content
                     | Next
                     i.fa.fa-arrow-right        
     // .contaier
-  // ==========================================================================
-  // ERRIADH
-  // ==========================================================================
-  section#projects.pfblock
-    .container
-      .row
-        .col-sm-6.col-sm-offset-3
-          .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('youthcouncil2016.erriadh')
-            .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2016.projectErriadh1')
-            #linkserriadh
-              a(href="../img/Erriadh_medical_centre2016/1.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/1.jpg", alt="1" , height="100", width="120")
-              a(href="../img/Erriadh_medical_centre2016/2.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/2.jpg", alt="2", height="100", width="120")
-              a(href="../img/Erriadh_medical_centre2016/3.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/3.jpg", alt="3" , height="100", width="120")
-              a(href="../img/Erriadh_medical_centre2016/4.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/4.jpg", alt="4" , height="100", width="120")
-              a(href="../img/Erriadh_medical_centre2016/5.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/5.jpg", alt="5" , height="100", width="120")
-              a(href="../img/Erriadh_medical_centre2016/6.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/6.jpg", alt="6" , height="100", width="120")
-              a(href="../img/Erriadh_medical_centre2016/7.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/7.jpg", alt="6" , height="100", width="120")
-              a(href="../img/Erriadh_medical_centre2016/8.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/8.jpg", alt="6" , height="100", width="120")            
-              a(href="../img/Erriadh_medical_centre2016/9.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_medical_centre2016/9.jpg", alt="6" , height="100", width="120")
-                
-          .pfblock-line
-          .pfblock-subtitle= t('youthcouncil2016.projectErriadh2')
-            #linkserriadh
-              a(href="../img/Erriadh_workshop_home2016/1.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_workshop_home2016/1.jpg", alt="1" , height="100", width="120")
-              a(href="../img/Erriadh_workshop_home2016/2.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_workshop_home2016/2.jpg", alt="2", height="100", width="120")
-              a(href="../img/Erriadh_workshop_home2016/3.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_workshop_home2016/3.jpg", alt="3" , height="100", width="120")
-              a(href="../img/Erriadh_workshop_home2016/4.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_workshop_home2016/4.jpg", alt="4" , height="100", width="120")
-              a(href="../img/Erriadh_workshop_home2016/5.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_workshop_home2016/5.jpg", alt="5" , height="100", width="120")
-              a(href="../img/Erriadh_workshop_home2016/6.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_workshop_home2016/6.jpg", alt="6" , height="100", width="120")
-              a(href="../img/Erriadh_workshop_home2016/7.jpg", title="Mini-project Erriadh 2016", data-gallery="")
-                img(src="../img/Erriadh_workshop_home2016/7.jpg", alt="6" , height="100", width="120")  
-    // .contaier
-  // erriadh 2016 ends: description + gallery
-
+    
   // ==========================================================================
   // Hammam Sousse
   // ==========================================================================
-  section#projects.pfblock
+  section#miniprojects.pfblock
     .container
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('youthcouncil2016.hs')
+            h2.pfblock-title= t('team.textCenter2')
             .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2016.projectHS')
+            .pfblock-subtitle= t('youthcouncil2013.figCaptionDescription2')
+      // The Gallery as lightbox dialog, should be a child element of the document body
+      .container
+        #linksminiProjectHS
+          a(href="../img/HammamSousse/1.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/1.jpg", alt="1" , height="100", width="120")
+
+          a(href="../img/HammamSousse/2.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/2.jpg", alt="2", height="100", width="120")
+
+          a(href="../img/HammamSousse/3.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/3.jpg", alt="3" , height="100", width="120")
+
+          a(href="../img/HammamSousse/4.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/4.jpg", alt="4" , height="100", width="120")
+
+          a(href="../img/HammamSousse/5.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/5.jpg", alt="5" , height="100", width="120")
+
+          a(href="../img/HammamSousse/6.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/6.jpg", alt="6" , height="100", width="120")
+
+          a(href="../img/HammamSousse/7.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/7.jpg", alt="7" , height="100", width="120")
+
+          a(href="../img/HammamSousse/8.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/8.jpg", alt="8" , height="100", width="120")
+
+          a(href="../img/HammamSousse/9.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/9.jpg", alt="9" , height="100", width="120")
+
+          a(href="../img/HammamSousse/10.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/10.jpg", alt="10" , height="100", width="120")
+
+          a(href="../img/HammamSousse/11.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/11.jpg", alt="11" , height="100", width="120")
+
+          a(href="../img/HammamSousse/12.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/12.jpg", alt="12" , height="100", width="120")
+
+          a(href="../img/HammamSousse/13.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/13.jpg", alt="13" , height="100", width="120")
+
+          a(href="../img/HammamSousse/14.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/14.jpg", alt="14" , height="100", width="120")
+
+          a(href="../img/HammamSousse/15.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/15.jpg", alt="15" , height="100", width="120")
+
+          a(href="../img/HammamSousse/16.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/16.jpg", alt="16" , height="100", width="120")
+
+          a(href="../img/HammamSousse/17.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/17.jpg", alt="17" , height="100", width="120")
+
+          a(href="../img/HammamSousse/18.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/18.jpg", alt="18" , height="100", width="120")
+
+          a(href="../img/HammamSousse/19.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/19.jpg", alt="19" , height="100", width="120")
+
+          a(href="../img/HammamSousse/20.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/20.jpg", alt="20" , height="100", width="120")
+
+          a(href="../img/HammamSousse/21.jpg", title="Hammam Sousse mini project 2013", data-gallery="")
+            img(src="../img/HammamSousse/21.jpg", alt="21" , height="100", width="120")
     // .contaier
-    // The Gallery as lightbox dialog, should be a child element of the document body
-    .container
-      #linksminiProjectHS
-        a(href="../img/hammamSousse2016/1.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/1.jpg", alt="1" , height="100", width="120")
-        a(href="../img/hammamSousse2016/2.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/2.jpg", alt="2", height="100", width="120")
-        a(href="../img/hammamSousse2016/3.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/3.jpg", alt="3" , height="100", width="120")
-        a(href="../img/hammamSousse2016/4.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/4.jpg", alt="4" , height="100", width="120")
-        a(href="../img/hammamSousse2016/5.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/5.jpg", alt="5" , height="100", width="120")
-        a(href="../img/hammamSousse2016/6.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/6.jpg", alt="6" , height="100", width="120")
-        a(href="../img/hammamSousse2016/7.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/7.jpg", alt="7" , height="100", width="120")
-        a(href="../img/hammamSousse2016/8.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/8.jpg", alt="8" , height="100", width="120")
-        a(href="../img/hammamSousse2016/9.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/9.jpg", alt="9" , height="100", width="120")
-        a(href="../img/hammamSousse2016/10.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/10.jpg", alt="10" , height="100", width="120")
-        a(href="../img/hammamSousse2016/11.jpg", title="Hammam Sousse mini project 2016", data-gallery="")
-          img(src="../img/hammamSousse2016/11.jpg", alt="11" , height="100", width="120")
+  // miniProjectHS 2013 ends: description + gallery
 
   // ==========================================================================
   // Kalaa Kebira
   // ==========================================================================
-  section#projects.pfblock
+  section#miniprojects.pfblock
     .container
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('youthcouncil2016.kk')
+            h2.pfblock-title= t('team.textCenter3')
             .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2016.projectKK')
+            .pfblock-subtitle= t('youthcouncil2013.figCaptionDescription2')
+      // The Gallery as lightbox dialog, should be a child element of the document body
+      .container
+        #linksminiProjectKK
+          a(href="../img/KalaaKebira2013/2.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/2.jpg", alt="2", height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/3.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/3.jpg", alt="3" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/4.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/4.jpg", alt="4" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/5.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/5.jpg", alt="5" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/7.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/7.jpg", alt="7" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/8.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/8.jpg", alt="8" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/9.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/9.jpg", alt="9" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/10.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/10.jpg", alt="10" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/11.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/11.jpg", alt="11" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/12.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/12.jpg", alt="12" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/13.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/13.jpg", alt="13" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/14.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/14.jpg", alt="14" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/15.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/15.jpg", alt="15" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/16.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/16.jpg", alt="16" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/17.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/17.jpg", alt="17" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/18.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/18.jpg", alt="18" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/19.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/19.jpg", alt="19" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/20.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/20.jpg", alt="20" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/21.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/21.jpg", alt="21" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/22.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/22.jpg", alt="22" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/23.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/23.jpg", alt="23" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/24.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/24.jpg", alt="24" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/25.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/25.jpg", alt="25" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/26.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/26.jpg", alt="26" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/27.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/27.jpg", alt="27" , height="100", width="120")
+
+          a(href="../img/KalaaKebira2013/28.jpg", title="Kalaa Kebira mini project 2013", data-gallery="")
+            img(src="../img/KalaaKebira2013/28.jpg", alt="28" , height="100", width="120")
+
     // .contaier
-    .container
-      #linksminiProjectKK
-        a(href="../img/kalaa_kebira2016/1.jpg", title="Kalaa Kebira mini project 2016", data-gallery="")
-          img(src="../img/kalaa_kebira2016/1.jpg", alt="1" , height="100", width="120")
-        a(href="../img/kalaa_kebira2016/2.jpg", title="Kalaa Kebira mini project 2016", data-gallery="")
-          img(src="../img/kalaa_kebira2016/2.jpg", alt="2", height="100", width="120")
-        a(href="../img/kalaa_kebira2016/3.jpg", title="Kalaa Kebira mini project 2016", data-gallery="")
-          img(src="../img/kalaa_kebira2016/3.jpg", alt="3" , height="100", width="120")
-  // miniProjectKK 2016 ends: description + gallery
-  
+  // miniProjectKK 2013 ends: description + gallery
+
   // ==========================================================================
   // Monastir
   // ==========================================================================
-  section#projects.pfblock
+  section#miniprojects.pfblock
     .container
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('youthcouncil2016.monastir')
+            h2.pfblock-title= t('team.textCenter5')
             .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2016.projectMonastir')
+            .pfblock-subtitle= t('youthcouncil2013.figCaptionDescription2')
+      // The Gallery as lightbox dialog, should be a child element of the document body
+      .container
+        #linksminiProjectM
+          a(href="../img/Monastir2013/1.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/1.jpg", alt="1" , height="100", width="120")
+
+          a(href="../img/Monastir2013/2.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/2.jpg", alt="2", height="100", width="120")
+
+          a(href="../img/Monastir2013/3.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/3.jpg", alt="3" , height="100", width="120")
+            
+          a(href="../img/Monastir2013/5.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/5.jpg", alt="5" , height="100", width="120")
+
+          a(href="../img/Monastir2013/6.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/6.jpg", alt="6" , height="100", width="120")
+
+          a(href="../img/Monastir2013/7.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/7.jpg", alt="7" , height="100", width="120")
+
+          a(href="../img/Monastir2013/8.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/8.jpg", alt="8" , height="100", width="120")
+
+          a(href="../img/Monastir2013/9.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/9.jpg", alt="9" , height="100", width="120")
+
+          a(href="../img/Monastir2013/10.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/10.jpg", alt="10" , height="100", width="120")
+
+          a(href="../img/Monastir2013/11.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/11.jpg", alt="11" , height="100", width="120")
+
+          a(href="../img/Monastir2013/12.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/12.jpg", alt="12" , height="100", width="120")
+
+          a(href="../img/Monastir2013/13.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/13.jpg", alt="13" , height="100", width="120")
+
+          a(href="../img/Monastir2013/14.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/14.jpg", alt="14" , height="100", width="120")
+
+          a(href="../img/Monastir2013/15.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/15.jpg", alt="15" , height="100", width="120")
+
+          a(href="../img/Monastir2013/16.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/16.jpg", alt="16" , height="100", width="120")
+
+          a(href="../img/Monastir2013/17.jpg", title="Monastirmini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/17.jpg", alt="17" , height="100", width="120")
+
+          a(href="../img/Monastir2013/18.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/18.jpg", alt="18" , height="100", width="120")
+
+          a(href="../img/Monastir2013/19.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/19.jpg", alt="19" , height="100", width="120")
+
+          a(href="../img/Monastir2013/20.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/20.jpg", alt="20" , height="100", width="120")
+
+          a(href="../img/Monastir2013/21.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/21.jpg", alt="21" , height="100", width="120")
+
+          a(href="../img/Monastir2013/22.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/22.jpg", alt="22" , height="100", width="120")
+
+          a(href="../img/Monastir013/23.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/23.jpg", alt="23" , height="100", width="120")
+
+          a(href="../img/Monastir2013/24.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/24.jpg", alt="24" , height="100", width="120")
+
+          a(href="../img/Monastir2013/25.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/25.jpg", alt="25" , height="100", width="120")
+
+          a(href="../img/Monastir2013/26.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/26.jpg", alt="26" , height="100", width="120")
+
+          a(href="../img/Monastir2013/27.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/27.jpg", alt="27" , height="100", width="120")
+
+          a(href="../img/Monastir2013/28.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/28.jpg", alt="28" , height="100", width="120")
+
+          a(href="../img/Monastir2013/29.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/29.jpg", alt="29" , height="100", width="120")
+
+          a(href="../img/Monastir2013/30.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/30.jpg", alt="30" , height="100", width="120")
+
+          a(href="../img/Monastir2013/31.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/31.jpg", alt="31" , height="100", width="120")
+
+          a(href="../img/Monastir2013/32.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/32.jpg", alt="32" , height="100", width="120")
+
+          a(href="../img/Monastir2013/33.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/33.jpg", alt="33" , height="100", width="120")
+
+          a(href="../img/Monastir2013/3-3.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/3-3.jpg", alt="3-3" , height="100", width="120")
+
+          a(href="../img/Monastir2013/32.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/33.jpg", alt="33" , height="100", width="120")
+
+          a(href="../img/Monastir2013/34.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/34.jpg", alt="34" , height="100", width="120")
+
+          a(href="../img/Monastir2013/35.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/35.jpg", alt="35" , height="100", width="120")
+
+          a(href="../img/Monastir2013/36.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/36.jpg", alt="36" , height="100", width="120")
+
+          a(href="../img/Monastir2013/37.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/37.jpg", alt="37" , height="100", width="120")
+
+          a(href="../img/Monastir2013/38.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/38.jpg", alt="38" , height="100", width="120")
+
+          a(href="../img/Monastir2013/39.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/39.jpg", alt="39" , height="100", width="120")
+
+          a(href="../img/Monastir2013/40.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/40.jpg", alt="40" , height="100", width="120")
+
+          a(href="../img/Monastir2013/41.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/41.jpg", alt="41" , height="100", width="120")
+
+          a(href="../img/Monastir2013/42.jpg", title="Monastir mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/42.jpg", alt="42" , height="100", width="120")
+
     // .contaier
-    // The Gallery as lightbox dialog, should be a child element of the document body
-    .container
-      #linksminiProjectMonastir
-        a(href="../img/monastir2016/1.jpg", title="Monastir mini project 2016", data-gallery="")
-          img(src="../img/monastir2016/1.jpg", alt="1" , height="100", width="120")
-        a(href="../img/monastir2016/2.jpg", title="Monastir mini project 2016", data-gallery="")
-          img(src="../img/monastir2016/2.jpg", alt="2", height="100", width="120")
-        a(href="../img/monastir2016/3.jpg", title="Monastir mini project 2016", data-gallery="")
-          img(src="../img/monastir2016/3.jpg", alt="3" , height="100", width="120")
-        a(href="../img/monastir2016/4.jpg", title="Monastir mini² project 2016", data-gallery="")
-          img(src="../img/monastir2016/4.jpg", alt="4" , height="100", width="120")
-        a(href="../img/monastir2016/5.jpg", title="Monastir mini project 2016", data-gallery="")
-          img(src="../img/monastir2016/5.jpg", alt="5" , height="100", width="120")
-        a(href="../img/monastir2016/6.jpg", title="Monastir mini project 2016", data-gallery="")
-          img(src="../img/monastir2016/6.jpg", alt="6" , height="100", width="120")
-        a(href="../img/monastir2016/7.jpg", title="Monastir mini project 2016", data-gallery="")
-          img(src="../img/monastir2016/7.jpg", alt="7" , height="100", width="120")
+  // miniProjectM 2013 ends: description + gallery
 
   // ==========================================================================
+  // M'saken
   // ==========================================================================
-  // Teboulba
-  // ==========================================================================
-  section#projects.pfblock
+  section#miniprojects.pfblock
     .container
       .row
         .col-sm-6.col-sm-offset-3
           .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('youthcouncil2016.teboulba')
+            h2.pfblock-title= t('team.textCenter6')
             .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2016.projectTeboulba')
+            .pfblock-subtitle= t('youthcouncil2013.figCaptionDescription2')
+      // The Gallery as lightbox dialog, should be a child element of the document body
+      .container
+        #linksminiProjectM
+          a(href="../img/msaken2013/1.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/1.jpg", alt="1" , height="100", width="120")
+
+          a(href="../img/msaken2013/2.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/2.jpg", alt="2", height="100", width="120")
+
+          a(href="../img/msaken2013/3.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/3.jpg", alt="3" , height="100", width="120")
+
+          a(href="../img/msaken2013/4.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/4.jpg", alt="4" , height="100", width="120")
+
+          a(href="../img/msaken2013/5.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/5.jpg", alt="5" , height="100", width="120")
+
+          a(href="../img/msaken2013/6.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/6.jpg", alt="6" , height="100", width="120")
+
+          a(href="../img/msaken2013/7.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/7.jpg", alt="7" , height="100", width="120")
+
+          a(href="../img/msaken2013/8.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/8.jpg", alt="8" , height="100", width="120")
+
+          a(href="../img/msaken2013/9.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/9.jpg", alt="9" , height="100", width="120")
+
+          a(href="../img/msaken2013/10.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/10.jpg", alt="10" , height="100", width="120")
+
+          a(href="../img/msaken2013/11.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/11.jpg", alt="11" , height="100", width="120")
+
+          a(href="../img/msaken2013/12.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/12.jpg", alt="12" , height="100", width="120")
+
+          a(href="../img/msaken2013/13.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/13.jpg", alt="13" , height="100", width="120")
+
+          a(href="../img/Monastir2013/14.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/Monastir2013/14.jpg", alt="14" , height="100", width="120")
+
+          a(href="../img/msaken2013/15.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/15.jpg", alt="15" , height="100", width="120")
+
+          a(href="../img/msaken2013/16.jpg", title="M'saken mini project 2013", data-gallery="")
+            img(src="../img/msaken2013/16.jpg", alt="16" , height="100", width="120")
+
     // .contaier
-    // The Gallery as lightbox dialog, should be a child element of the document body
-    .container
-      #linksminiProjectMsaken  
-        a(href="../img/teboulba2016/1.jpg", title="Teboulba mini project 2016", data-gallery="")
-          img(src="../img/teboulba2016/1.jpg", alt="1" , height="100", width="120")
-        a(href="../img/teboulba2016/2.jpg", title="Teboulba mini project 2016", data-gallery="")
-          img(src="../img/teboulba2016/2.jpg", alt="2", height="100", width="120")
-        a(href="../img/teboulba2016/3.jpg", title="Teboulba mini project 2016", data-gallery="")
-          img(src="../img/teboulba2016/3.jpg", alt="3" , height="100", width="120")
-
-  // ==========================================================================
-  // M'Saken
-  // ==========================================================================
-  section#projects.pfblock
-    .container
-      .row
-        .col-sm-6.col-sm-offset-3
-          .pfblock-header.wow.fadeInUp
-            h2.pfblock-title= t('youthcouncil2016.msaken')
-            .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2016.projectMsaken2')
-    // .contaier
-    // The Gallery as lightbox dialog, should be a child element of the document body
-    .container
-      #linksminiProjectMsaken
-        a(href="../img/msaken_jardin_malin/1.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/1.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_jardin_malin/2.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/2.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_jardin_malin/3.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/3.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_jardin_malin/4.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/4.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_jardin_malin/5.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/5.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_jardin_malin/6.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/6.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_jardin_malin/7.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/7.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_jardin_malin/8.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_jardin_malin/8.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/9.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/9.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/10.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/10.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/11.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/11.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/12.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/12.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/13.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/13.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/14.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/14.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/15.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/15.jpg", alt="1" , height="100", width="120")
-          a(href="../img/msaken_jardin_malin/16.jpg", title="M'Saken mini project 2016", data-gallery="")
-            img(src="../img/msaken_jardin_malin/16.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/17.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/17.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/18.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/18.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/19.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/19.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/20.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/20.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/21.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/21.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/22.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/22.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/23.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/23.jpg", alt="1" , height="100", width="120")
-            a(href="../img/msaken_jardin_malin/24.jpg", title="M'Saken mini project 2016", data-gallery="")
-              img(src="../img/msaken_jardin_malin/24.jpg", alt="1" , height="100", width="120")
-              a(href="../img/msaken_jardin_malin/25.jpg", title="M'Saken mini project 2016", data-gallery="")
-                img(src="../img/msaken_jardin_malin/25.jpg", alt="1" , height="100", width="120")
-              a(href="../img/msaken_jardin_malin/26.jpg", title="M'Saken mini project 2016", data-gallery="")
-                img(src="../img/msaken_jardin_malin/26.jpg", alt="1" , height="100", width="120")
-              a(href="../img/msaken_jardin_malin/27.jpg", title="M'Saken mini project 2016", data-gallery="")
-                img(src="../img/msaken_jardin_malin/27.jpg", alt="1" , height="100", width="120")
-  // miniProjectM 2016 ends: description + gallery
-
-  // Event street workout
-  section#projects.pfblock
-    .container
-      .row
-        .col-sm-6.col-sm-offset-3
-          .pfblock-header.wow.fadeInUp
-            .pfblock-line
-            .pfblock-subtitle= t('youthcouncil2016.projectMsaken1')
-    // .contaier
-    // The Gallery as lightbox dialog, should be a child element of the document body
-    .container
-      #linksminiProjectMsaken
-        a(href="../img/msaken_street_workout/1.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/1.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/2.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/2.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/3.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/3.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/4.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/4.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/5.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/5.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/6.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/6.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/7.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/7.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/8.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/8.jpg", alt="1" , height="100", width="120")
-        a(href="../img/msaken_street_workout/9.jpg", title="M'Saken mini project 2016", data-gallery="")
-          img(src="../img/msaken_street_workout/9.jpg", alt="1" , height="100", width="120")
-          
-  // end event street workout
-
-
-
+  // miniProjectM 2013 ends: description + gallery
 block footer  
    
   script.
