@@ -14,6 +14,11 @@ exports.miniProjects= function(req, res) {
 	res.render('youthcouncil2016/miniprojects', { title: 'Youth Council New Edition 2016' });
 }
 
+/* GET youthcouncil2016 mini projects page. */
+exports.description= function(req, res) {
+	res.render('youthcouncil2016/description', { title: 'Youth Council New Edition 2016' });
+}
+
 /* download the project calendar */
 exports.downloadCalendar= function(req, res) {
 	res.download('./public/Project-Calendar.pdf');

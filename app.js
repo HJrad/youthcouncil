@@ -64,12 +64,16 @@ app.use('/facebookpage',routes);
 app.get('/youthcouncil2016/studyTrip',youthcouncils2016.studyTrip);
 app.get('/youthcouncil2016/miniProjects',youthcouncils2016.miniProjects);
 app.get('/youthcouncil2016/training',youthcouncils2016.training);
+app.get('/youthcouncil2016/description',youthcouncils2016.description);
 app.get('/download_calendar',youthcouncils2016.downloadCalendar);
 // youth council 2015
-app.get('/youthcouncil2015',youthcouncils2015.youthcouncil2015);
-app.get('/download_calendar',youthcouncils2015.downloadCalendar);
+app.get('/youthcouncil2015/studyTrip',youthcouncils2015.studyTrip);
+app.get('/youthcouncil2015/miniProjects',youthcouncils2015.miniProjects);
+app.get('/youthcouncil2015/training',youthcouncils2015.training);
 // youth council 2013
-app.get('/youthcouncil2013',youthcouncils2013.youthcouncil2013);
+app.get('/youthcouncil2013/studyTrip',youthcouncils2013.studyTrip);
+app.get('/youthcouncil2013/miniProjects',youthcouncils2013.miniProjects);
+app.get('/youthcouncil2013/training',youthcouncils2013.training);
 app.get('/newspaperAout',youthcouncils2013.downloadFirstEdition);
 app.get('/newspaperSept',youthcouncils2013.downloadSecondEdition);
 app.get('/guidebook',youthcouncils2013.downloadGuideBook);
